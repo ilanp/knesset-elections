@@ -1,2578 +1,2579 @@
 {
-  "metadata": {
-    "title": "תוצאות הבחירות לכנסת ישראל",
-    "first_knesset": 1,
-    "last_knesset": 26,
-    "official_sources_only": true,
-    "last_updated": "2026-10-29",
-    "elections_1_to_25_status": "final",
-    "election_26_status": "provisional",
-    "general_statistics_source_url": "https://www.cbs.gov.il/he/publications/DocLib/2023/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
-    "historical_dates_source_url": "https://main.knesset.gov.il/mk/elections/Pages/default.aspx",
-    "official_publications_reference_url": "https://www.gov.il/apps/elections/heb/history/PubsCollection.html",
-    "threshold_history_source_url": "https://main.knesset.gov.il/About/Occasion/pages/birthday/quiz.aspx",
-    "notes": [
-      "בבחירות 1–25: נתוני בעלי זכות בחירה, מצביעים, שיעור הצבעה וקולות כשרים מבוססים על טבלת הלמ״ס 27.2, שמציינת שמקור הנתונים הוא ועדת הבחירות המרכזית. מספר הקולות הפסולים חושב כהפרש בין מספר המצביעים לקולות הכשרים.",
-      "parties_passed_threshold מכילה את שמות רשימות המועמדים שקיבלו ייצוג בכנסת באותה מערכת בחירות; ברשימות משותפות נשמר שם הרשימה המשותפת.",
-      "double_votes_not_counted נשאר null בכל הבחירות משום שלא נמצא נתון רשמי בר-השוואה לפי אותו שדה לכל מערכות הבחירות.",
-      "לכנסת ה-26 נקבע מועד בחירות 2026-10-27. נכון ל-2026-10-29, אתר התוצאות הרשמי בכתובת votes26.bechirot.gov.il הציג הודעה שממתינים לספירת הקולות; לכן נתוני התוצאות שלא פורסמו בו נשארו null ורשימת המפלגות נשארה ריקה. לא נעשה שימוש בנתונים שמופיעים באתר cdn-votes26, המסומן במפורש 'סביבת בדיקות'. מספר בעלי זכות הבחירה נלקח מדף המידע הרשמי לבוחר, מעודכן ל-31.5.2026.",
-      "בכל רשומת מפלגה: votes הוא מספר הקולות לרשימה; percentage חושב מתוך valid_votes ועוגל לשתי ספרות אחרי הנקודה; seats הוא מספר המנדטים. letters נשאר null כאשר אותיות הרשימה לא אומתו במקור רשמי זמין.",
-      "ערכי null מציינים נתון שלא ניתן היה לאמת מתוך המקורות הרשמיים שנגישו בהרכבת הקובץ; הם אינם מייצגים אפס. הנתונים המלאים המוכרים ממקורות ועדת הבחירות/הכנסת מולאו, ובמערכות מוקדמות מסוימות נותרו ערכים חסרים.",
-      "בקובץ זה רשימות המפלגות הן רשימות שזכו בייצוג בכנסת; בבחירות לכנסת ה-8, ה-22 וה-23 הותאם הרכב הרשימות כדי שלא לכלול רשימות ללא מנדטים לפי טבלת התוצאות של הכנסת."
+    "metadata": {
+        "title": "תוצאות הבחירות לכנסת ישראל",
+        "first_knesset": 1,
+        "last_knesset": 26,
+        "official_sources_only": true,
+        "last_updated": "2026-10-29",
+        "elections_1_to_25_status": "final",
+        "election_26_status": "provisional",
+        "general_statistics_source_url": "https://www.cbs.gov.il/he/publications/DocLib/2023/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+        "historical_dates_source_url": "https://main.knesset.gov.il/mk/elections/Pages/default.aspx",
+        "official_publications_reference_url": "https://www.gov.il/apps/elections/heb/history/PubsCollection.html",
+        "threshold_history_source_url": "https://main.knesset.gov.il/About/Occasion/pages/birthday/quiz.aspx",
+        "notes": [
+            "בבחירות 1–25: נתוני בעלי זכות בחירה, מצביעים, שיעור הצבעה וקולות כשרים מבוססים על טבלת הלמ״ס 27.2, שמציינת שמקור הנתונים הוא ועדת הבחירות המרכזית. מספר הקולות הפסולים חושב כהפרש בין מספר המצביעים לקולות הכשרים.",
+            "parties_passed_threshold מכילה את שמות רשימות המועמדים שקיבלו ייצוג בכנסת באותה מערכת בחירות; ברשימות משותפות נשמר שם הרשימה המשותפת.",
+            "double_votes_not_counted נשאר null בכל הבחירות משום שלא נמצא נתון רשמי בר-השוואה לפי אותו שדה לכל מערכות הבחירות.",
+            "לכנסת ה-26 נקבע מועד בחירות 2026-10-27. נכון ל-2026-10-29, אתר התוצאות הרשמי בכתובת votes26.bechirot.gov.il הציג הודעה שממתינים לספירת הקולות; לכן נתוני התוצאות שלא פורסמו בו נשארו null ורשימת המפלגות נשארה ריקה. לא נעשה שימוש בנתונים שמופיעים באתר cdn-votes26, המסומן במפורש 'סביבת בדיקות'. מספר בעלי זכות הבחירה נלקח מדף המידע הרשמי לבוחר, מעודכן ל-31.5.2026.",
+            "בכל רשומת מפלגה: votes הוא מספר הקולות לרשימה; percentage חושב מתוך valid_votes ועוגל לשתי ספרות אחרי הנקודה; seats הוא מספר המנדטים. letters נשאר null כאשר אותיות הרשימה לא אומתו במקור רשמי זמין.",
+            "ערכי null מציינים נתון שלא ניתן היה לאמת מתוך המקורות הרשמיים שנגישו בהרכבת הקובץ; הם אינם מייצגים אפס. הנתונים המלאים המוכרים ממקורות ועדת הבחירות/הכנסת מולאו, ובמערכות מוקדמות מסוימות נותרו ערכים חסרים.",
+            "בקובץ זה רשימות המפלגות הן רשימות שזכו בייצוג בכנסת; בבחירות לכנסת ה-8, ה-22 וה-23 הותאם הרכב הרשימות כדי שלא לכלול רשימות ללא מנדטים לפי טבלת התוצאות של הכנסת."
+        ]
+    },
+    "elections": [
+        {
+            "election": "בחירות לכנסת ה-1",
+            "election_date": "1949-01-25",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=1",
+            "general_statistics": {
+                "eligible_voters": 506567,
+                "total_votes": 440095,
+                "valid_votes": 434684,
+                "invalid_votes": 5411,
+                "turnout_percentage": 86.9,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
+                    "letters": null,
+                    "votes": 155274,
+                    "percentage": 35.72,
+                    "seats": 46
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": 64018,
+                    "percentage": 14.73,
+                    "seats": 19
+                },
+                {
+                    "party_name": "חזית דתית מאוחדת",
+                    "letters": null,
+                    "votes": 52982,
+                    "percentage": 12.19,
+                    "seats": 16
+                },
+                {
+                    "party_name": "תנועת החרות",
+                    "letters": null,
+                    "votes": 49782,
+                    "percentage": 11.45,
+                    "seats": 14
+                },
+                {
+                    "party_name": "ציונים כלליים",
+                    "letters": null,
+                    "votes": 22661,
+                    "percentage": 5.21,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ספרדים ועדות מזרח",
+                    "letters": null,
+                    "votes": 15287,
+                    "percentage": 3.52,
+                    "seats": 4
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": 15148,
+                    "percentage": 3.48,
+                    "seats": 4
+                },
+                {
+                    "party_name": "רשימה דמוקרטית של נצרת",
+                    "letters": null,
+                    "votes": 7387,
+                    "percentage": 1.7,
+                    "seats": 2
+                },
+                {
+                    "party_name": "רשימת הלוחמים",
+                    "letters": null,
+                    "votes": 5363,
+                    "percentage": 1.23,
+                    "seats": 1
+                },
+                {
+                    "party_name": "ויצ״ו",
+                    "letters": null,
+                    "votes": 5173,
+                    "percentage": 1.19,
+                    "seats": 1
+                },
+                {
+                    "party_name": "התאחדות התימנים בישראל",
+                    "letters": null,
+                    "votes": 4399,
+                    "percentage": 1.01,
+                    "seats": 1
+                },
+                {
+                    "party_name": "המפלגה הפרוגרסיבית",
+                    "letters": null,
+                    "votes": 17786,
+                    "percentage": 4.09,
+                    "seats": 5
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-2",
+            "election_date": "1951-07-30",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=2",
+            "general_statistics": {
+                "eligible_voters": 924885,
+                "total_votes": 695007,
+                "valid_votes": 687492,
+                "invalid_votes": 7515,
+                "turnout_percentage": 75.1,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
+                    "letters": null,
+                    "votes": 256456,
+                    "percentage": 37.3,
+                    "seats": 45
+                },
+                {
+                    "party_name": "ציונים כלליים",
+                    "letters": null,
+                    "votes": 111394,
+                    "percentage": 16.2,
+                    "seats": 20
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": 86095,
+                    "percentage": 12.52,
+                    "seats": 15
+                },
+                {
+                    "party_name": "הפועל המזרחי",
+                    "letters": null,
+                    "votes": 46347,
+                    "percentage": 6.74,
+                    "seats": 8
+                },
+                {
+                    "party_name": "תנועת החרות",
+                    "letters": null,
+                    "votes": 45651,
+                    "percentage": 6.64,
+                    "seats": 8
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": 27334,
+                    "percentage": 3.98,
+                    "seats": 5
+                },
+                {
+                    "party_name": "המפלגה הפרוגרסיבית",
+                    "letters": null,
+                    "votes": 22171,
+                    "percentage": 3.22,
+                    "seats": 5
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המזרחי",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ספרדים ועדות מזרח",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "התאחדות התימנים בישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "חקלאות ופיתוח",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-3",
+            "election_date": "1955-07-26",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=3",
+            "general_statistics": {
+                "eligible_voters": 1057795,
+                "total_votes": 876085,
+                "valid_votes": 853219,
+                "invalid_votes": 22866,
+                "turnout_percentage": 82.8,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
+                    "letters": null,
+                    "votes": 274735,
+                    "percentage": 32.2,
+                    "seats": 40
+                },
+                {
+                    "party_name": "תנועת החרות",
+                    "letters": null,
+                    "votes": 107190,
+                    "percentage": 12.56,
+                    "seats": 15
+                },
+                {
+                    "party_name": "ציונים כלליים",
+                    "letters": null,
+                    "votes": 87099,
+                    "percentage": 10.21,
+                    "seats": 13
+                },
+                {
+                    "party_name": "חזית דתית לאומית",
+                    "letters": null,
+                    "votes": 77936,
+                    "percentage": 9.13,
+                    "seats": 11
+                },
+                {
+                    "party_name": "אחדות העבודה – פועלי ציון",
+                    "letters": null,
+                    "votes": 69475,
+                    "percentage": 8.14,
+                    "seats": 10
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": 62401,
+                    "percentage": 7.31,
+                    "seats": 9
+                },
+                {
+                    "party_name": "חזית דתית תורתית",
+                    "letters": null,
+                    "votes": 39836,
+                    "percentage": 4.67,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": 38492,
+                    "percentage": 4.51,
+                    "seats": 6
+                },
+                {
+                    "party_name": "המפלגה הפרוגרסיבית",
+                    "letters": null,
+                    "votes": 37661,
+                    "percentage": 4.41,
+                    "seats": 5
+                },
+                {
+                    "party_name": "רשימה דמוקרטית לערביי ישראל",
+                    "letters": null,
+                    "votes": 15475,
+                    "percentage": 1.81,
+                    "seats": 2
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 2
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-4",
+            "election_date": "1959-11-03",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=4",
+            "general_statistics": {
+                "eligible_voters": 1218483,
+                "total_votes": 994306,
+                "valid_votes": 969337,
+                "invalid_votes": 24969,
+                "turnout_percentage": 81.6,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "תנועת החרות",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "חזית דתית לאומית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ציונים כלליים",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "אחדות העבודה – פועלי ציון",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המפלגה הפרוגרסיבית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "קידמה ופיתוח",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "שיתוף ואחווה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-5",
+            "election_date": "1961-08-15",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=5",
+            "general_statistics": {
+                "eligible_voters": 1271285,
+                "total_votes": 1037030,
+                "valid_votes": 1006964,
+                "invalid_votes": 30066,
+                "turnout_percentage": 81.6,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 42
+                },
+                {
+                    "party_name": "תנועת החרות",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 17
+                },
+                {
+                    "party_name": "גוש חרות–ליברלים",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 17
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 12
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 9
+                },
+                {
+                    "party_name": "אחדות העבודה – פועלי ציון",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 8
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 5
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 4
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 2
+                },
+                {
+                    "party_name": "שיתוף ואחווה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 2
+                },
+                {
+                    "party_name": "קידמה ופיתוח",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 2
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-6",
+            "election_date": "1965-11-02",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=6",
+            "general_statistics": {
+                "eligible_voters": 1499709,
+                "total_votes": 1244706,
+                "valid_votes": 1206728,
+                "invalid_votes": 37978,
+                "turnout_percentage": 83.0,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": 443379,
+                    "percentage": 36.74,
+                    "seats": 45
+                },
+                {
+                    "party_name": "גוש חרות–ליברלים (גח״ל)",
+                    "letters": null,
+                    "votes": 256957,
+                    "percentage": 21.29,
+                    "seats": 26
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 107966,
+                    "percentage": 8.95,
+                    "seats": 11
+                },
+                {
+                    "party_name": "רשימת פועלים ישראלית (רפ״י)",
+                    "letters": null,
+                    "votes": 95328,
+                    "percentage": 7.9,
+                    "seats": 10
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": 79985,
+                    "percentage": 6.63,
+                    "seats": 8
+                },
+                {
+                    "party_name": "ליברלים עצמאיים",
+                    "letters": null,
+                    "votes": 45299,
+                    "percentage": 3.75,
+                    "seats": 5
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": 39795,
+                    "percentage": 3.3,
+                    "seats": 4
+                },
+                {
+                    "party_name": "רשימה קומוניסטית חדשה (רק״ח)",
+                    "letters": null,
+                    "votes": 27413,
+                    "percentage": 2.27,
+                    "seats": 3
+                },
+                {
+                    "party_name": "קידמה ופיתוח",
+                    "letters": null,
+                    "votes": 23430,
+                    "percentage": 1.94,
+                    "seats": 2
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": 22066,
+                    "percentage": 1.83,
+                    "seats": 2
+                },
+                {
+                    "party_name": "שיתוף ואחווה",
+                    "letters": null,
+                    "votes": 16464,
+                    "percentage": 1.36,
+                    "seats": 2
+                },
+                {
+                    "party_name": "העולם הזה – כוח חדש",
+                    "letters": null,
+                    "votes": 14124,
+                    "percentage": 1.17,
+                    "seats": 1
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-7",
+            "election_date": "1969-10-28",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=7",
+            "general_statistics": {
+                "eligible_voters": 1748710,
+                "total_votes": 1427981,
+                "valid_votes": 1367743,
+                "invalid_votes": 60238,
+                "turnout_percentage": 81.7,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "גוש חרות–ליברלים (גח״ל)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "הרשימה הממלכתית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ליברלים עצמאיים",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "רשימה קומוניסטית חדשה (רק״ח)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המרכז החופשי",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "קידמה ופיתוח",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "שיתוף ואחווה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-8",
+            "election_date": "1973-12-31",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=8",
+            "general_statistics": {
+                "eligible_voters": 2037478,
+                "total_votes": 1601098,
+                "valid_votes": 1566855,
+                "invalid_votes": 34243,
+                "turnout_percentage": 78.6,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": 621183,
+                    "percentage": 39.65,
+                    "seats": 51
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 473309,
+                    "percentage": 30.21,
+                    "seats": 39
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 130349,
+                    "percentage": 8.32,
+                    "seats": 10
+                },
+                {
+                    "party_name": "חזית תורתית דתית",
+                    "letters": null,
+                    "votes": 60012,
+                    "percentage": 3.83,
+                    "seats": 5
+                },
+                {
+                    "party_name": "ליברלים עצמאיים",
+                    "letters": null,
+                    "votes": 56560,
+                    "percentage": 3.61,
+                    "seats": 4
+                },
+                {
+                    "party_name": "הרשימה הקומוניסטית החדשה",
+                    "letters": null,
+                    "votes": 53353,
+                    "percentage": 3.41,
+                    "seats": 4
+                },
+                {
+                    "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
+                    "letters": null,
+                    "votes": 35023,
+                    "percentage": 2.24,
+                    "seats": 3
+                },
+                {
+                    "party_name": "קידמה ופיתוח",
+                    "letters": null,
+                    "votes": 22604,
+                    "percentage": 1.44,
+                    "seats": 2
+                },
+                {
+                    "party_name": "מוקד",
+                    "letters": null,
+                    "votes": 22147,
+                    "percentage": 1.41,
+                    "seats": 1
+                },
+                {
+                    "party_name": "הרשימה הערבית לבדואים ולכפריים",
+                    "letters": null,
+                    "votes": 16408,
+                    "percentage": 1.05,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-9",
+            "election_date": "1977-05-17",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=9",
+            "general_statistics": {
+                "eligible_voters": 2236293,
+                "total_votes": 1771726,
+                "valid_votes": 1747820,
+                "invalid_votes": 23906,
+                "turnout_percentage": 79.2,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 583968,
+                    "percentage": 33.41,
+                    "seats": 43
+                },
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": 430023,
+                    "percentage": 24.6,
+                    "seats": 32
+                },
+                {
+                    "party_name": "התנועה הדמוקרטית לשינוי (ד״ש)",
+                    "letters": null,
+                    "votes": 202265,
+                    "percentage": 11.57,
+                    "seats": 15
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 160787,
+                    "percentage": 9.2,
+                    "seats": 12
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": 80118,
+                    "percentage": 4.58,
+                    "seats": 5
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": 58652,
+                    "percentage": 3.36,
+                    "seats": 4
+                },
+                {
+                    "party_name": "שמואל פלאטו-שרון",
+                    "letters": null,
+                    "votes": 35049,
+                    "percentage": 2.01,
+                    "seats": 1
+                },
+                {
+                    "party_name": "שלומציון",
+                    "letters": null,
+                    "votes": 33947,
+                    "percentage": 1.94,
+                    "seats": 2
+                },
+                {
+                    "party_name": "מחנה של״י",
+                    "letters": null,
+                    "votes": 27281,
+                    "percentage": 1.56,
+                    "seats": 2
+                },
+                {
+                    "party_name": "הרשימה הערבית המאוחדת",
+                    "letters": null,
+                    "votes": 24185,
+                    "percentage": 1.38,
+                    "seats": 1
+                },
+                {
+                    "party_name": "פועלי אגודת ישראל",
+                    "letters": null,
+                    "votes": 23571,
+                    "percentage": 1.35,
+                    "seats": 1
+                },
+                {
+                    "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
+                    "letters": null,
+                    "votes": 20621,
+                    "percentage": 1.18,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-10",
+            "election_date": "1981-06-30",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=10",
+            "general_statistics": {
+                "eligible_voters": 2490014,
+                "total_votes": 1954609,
+                "valid_votes": 1937366,
+                "invalid_votes": 17243,
+                "turnout_percentage": 78.5,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 718941,
+                    "percentage": 37.11,
+                    "seats": 48
+                },
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": 708536,
+                    "percentage": 36.57,
+                    "seats": 47
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 95232,
+                    "percentage": 4.92,
+                    "seats": 6
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": 72312,
+                    "percentage": 3.73,
+                    "seats": 4
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": 64918,
+                    "percentage": 3.35,
+                    "seats": 4
+                },
+                {
+                    "party_name": "התחייה",
+                    "letters": null,
+                    "votes": 44700,
+                    "percentage": 2.31,
+                    "seats": 3
+                },
+                {
+                    "party_name": "תנועה למסורת ישראל (תמ״י)",
+                    "letters": null,
+                    "votes": 44466,
+                    "percentage": 2.3,
+                    "seats": 3
+                },
+                {
+                    "party_name": "תנועה להתחדשות ממלכתית (תל״ם)",
+                    "letters": null,
+                    "votes": 30600,
+                    "percentage": 1.58,
+                    "seats": 2
+                },
+                {
+                    "party_name": "שינוי",
+                    "letters": null,
+                    "votes": 29837,
+                    "percentage": 1.54,
+                    "seats": 2
+                },
+                {
+                    "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
+                    "letters": null,
+                    "votes": 27921,
+                    "percentage": 1.44,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-11",
+            "election_date": "1984-07-23",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=11",
+            "general_statistics": {
+                "eligible_voters": 2654613,
+                "total_votes": 2091402,
+                "valid_votes": 2073321,
+                "invalid_votes": 18081,
+                "turnout_percentage": 79.8,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "התחייה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "שינוי",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "יחד",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מורשה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "הרשימה המתקדמת לשלום",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "כך",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "תמ״י",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-12",
+            "election_date": "1988-11-01",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=12",
+            "general_statistics": {
+                "eligible_voters": 2894267,
+                "total_votes": 2305567,
+                "valid_votes": 2283123,
+                "invalid_votes": 22444,
+                "turnout_percentage": 79.7,
+                "passed_threshold_percentage": 1.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 709305,
+                    "percentage": 31.07,
+                    "seats": 40
+                },
+                {
+                    "party_name": "המערך",
+                    "letters": null,
+                    "votes": 685363,
+                    "percentage": 30.02,
+                    "seats": 39
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 107709,
+                    "percentage": 4.72,
+                    "seats": 6
+                },
+                {
+                    "party_name": "אגודת ישראל",
+                    "letters": null,
+                    "votes": 102714,
+                    "percentage": 4.5,
+                    "seats": 5
+                },
+                {
+                    "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
+                    "letters": null,
+                    "votes": 97513,
+                    "percentage": 4.27,
+                    "seats": 5
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 89720,
+                    "percentage": 3.93,
+                    "seats": 5
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": 84032,
+                    "percentage": 3.68,
+                    "seats": 4
+                },
+                {
+                    "party_name": "התחייה",
+                    "letters": null,
+                    "votes": 70730,
+                    "percentage": 3.1,
+                    "seats": 3
+                },
+                {
+                    "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
+                    "letters": null,
+                    "votes": 56345,
+                    "percentage": 2.47,
+                    "seats": 3
+                },
+                {
+                    "party_name": "צומת",
+                    "letters": null,
+                    "votes": 45489,
+                    "percentage": 1.99,
+                    "seats": 2
+                },
+                {
+                    "party_name": "מולדת",
+                    "letters": null,
+                    "votes": 44174,
+                    "percentage": 1.93,
+                    "seats": 2
+                },
+                {
+                    "party_name": "שינוי",
+                    "letters": null,
+                    "votes": 39538,
+                    "percentage": 1.73,
+                    "seats": 2
+                },
+                {
+                    "party_name": "דגל התורה",
+                    "letters": null,
+                    "votes": 34279,
+                    "percentage": 1.5,
+                    "seats": 2
+                },
+                {
+                    "party_name": "הרשימה המתקדמת לשלום",
+                    "letters": null,
+                    "votes": 33695,
+                    "percentage": 1.48,
+                    "seats": 1
+                },
+                {
+                    "party_name": "המפלגה הדמוקרטית הערבית (מד״ע)",
+                    "letters": null,
+                    "votes": 27012,
+                    "percentage": 1.18,
+                    "seats": 1
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-13",
+            "election_date": "1992-06-23",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=13",
+            "general_statistics": {
+                "eligible_voters": 3409015,
+                "total_votes": 2637943,
+                "valid_votes": 2616841,
+                "invalid_votes": 21102,
+                "turnout_percentage": 77.4,
+                "passed_threshold_percentage": 1.5
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "העבודה",
+                    "letters": null,
+                    "votes": 906810,
+                    "percentage": 34.65,
+                    "seats": 44
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 651229,
+                    "percentage": 24.89,
+                    "seats": 32
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": 250667,
+                    "percentage": 9.58,
+                    "seats": 12
+                },
+                {
+                    "party_name": "צומת",
+                    "letters": null,
+                    "votes": 165074,
+                    "percentage": 6.31,
+                    "seats": 8
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 129347,
+                    "percentage": 4.94,
+                    "seats": 6
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 98018,
+                    "percentage": 3.75,
+                    "seats": 6
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 86167,
+                    "percentage": 3.29,
+                    "seats": 4
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": 62546,
+                    "percentage": 2.39,
+                    "seats": 3
+                },
+                {
+                    "party_name": "מולדת",
+                    "letters": null,
+                    "votes": 62269,
+                    "percentage": 2.38,
+                    "seats": 3
+                },
+                {
+                    "party_name": "המפלגה הדמוקרטית הערבית (מד״ע)",
+                    "letters": null,
+                    "votes": 37600,
+                    "percentage": 1.44,
+                    "seats": 2
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-14",
+            "election_date": "1996-05-29",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=14",
+            "general_statistics": {
+                "eligible_voters": 3933250,
+                "total_votes": 3119832,
+                "valid_votes": 3052130,
+                "invalid_votes": 67702,
+                "turnout_percentage": 79.3,
+                "passed_threshold_percentage": 1.5
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "ישראל – גשר – צומת",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "ישראל בעלייה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "הרשימה הערבית המאוחדת",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "הדרך השלישית",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                },
+                {
+                    "party_name": "מולדת",
+                    "letters": null,
+                    "votes": null,
+                    "percentage": null,
+                    "seats": null
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-15",
+            "election_date": "1999-05-17",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=15",
+            "general_statistics": {
+                "eligible_voters": 4285428,
+                "total_votes": 3373748,
+                "valid_votes": 3309416,
+                "invalid_votes": 64332,
+                "turnout_percentage": 78.7,
+                "passed_threshold_percentage": 1.5
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "ישראל אחת",
+                    "letters": null,
+                    "votes": 670484,
+                    "percentage": 20.26,
+                    "seats": 26
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 468103,
+                    "percentage": 14.14,
+                    "seats": 19
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 430676,
+                    "percentage": 13.01,
+                    "seats": 17
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": 253525,
+                    "percentage": 7.66,
+                    "seats": 10
+                },
+                {
+                    "party_name": "ישראל בעלייה",
+                    "letters": null,
+                    "votes": 171705,
+                    "percentage": 5.19,
+                    "seats": 6
+                },
+                {
+                    "party_name": "שינוי",
+                    "letters": null,
+                    "votes": 167748,
+                    "percentage": 5.07,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מפלגת המרכז",
+                    "letters": null,
+                    "votes": 165622,
+                    "percentage": 5.0,
+                    "seats": 6
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 140307,
+                    "percentage": 4.24,
+                    "seats": 5
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 125741,
+                    "percentage": 3.8,
+                    "seats": 5
+                },
+                {
+                    "party_name": "רע״ם",
+                    "letters": null,
+                    "votes": 114810,
+                    "percentage": 3.47,
+                    "seats": 5
+                },
+                {
+                    "party_name": "האיחוד הלאומי",
+                    "letters": null,
+                    "votes": 100181,
+                    "percentage": 3.03,
+                    "seats": 4
+                },
+                {
+                    "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
+                    "letters": null,
+                    "votes": 87022,
+                    "percentage": 2.63,
+                    "seats": 3
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": null,
+                    "votes": 86153,
+                    "percentage": 2.6,
+                    "seats": 4
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": 66103,
+                    "percentage": 2.0,
+                    "seats": 2
+                },
+                {
+                    "party_name": "עם אחד",
+                    "letters": null,
+                    "votes": 64143,
+                    "percentage": 1.94,
+                    "seats": 2
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-16",
+            "election_date": "2003-01-28",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=16",
+            "general_statistics": {
+                "eligible_voters": 4720075,
+                "total_votes": 3200773,
+                "valid_votes": 3148364,
+                "invalid_votes": 52409,
+                "turnout_percentage": 67.8,
+                "passed_threshold_percentage": 1.5
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 925279,
+                    "percentage": 29.39,
+                    "seats": 38
+                },
+                {
+                    "party_name": "העבודה–מימד",
+                    "letters": null,
+                    "votes": 455183,
+                    "percentage": 14.46,
+                    "seats": 19
+                },
+                {
+                    "party_name": "שינוי",
+                    "letters": null,
+                    "votes": 386535,
+                    "percentage": 12.28,
+                    "seats": 15
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 258879,
+                    "percentage": 8.22,
+                    "seats": 11
+                },
+                {
+                    "party_name": "האיחוד הלאומי – ישראל ביתנו – מולדת – תקומה",
+                    "letters": null,
+                    "votes": 173973,
+                    "percentage": 5.53,
+                    "seats": 7
+                },
+                {
+                    "party_name": "מרצ – הבחירה הדמוקרטית – שחר",
+                    "letters": null,
+                    "votes": 164122,
+                    "percentage": 5.21,
+                    "seats": 6
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 135087,
+                    "percentage": 4.29,
+                    "seats": 5
+                },
+                {
+                    "party_name": "המפלגה הדתית הלאומית",
+                    "letters": null,
+                    "votes": 132370,
+                    "percentage": 4.2,
+                    "seats": 6
+                },
+                {
+                    "party_name": "חד״ש–תע״ל",
+                    "letters": null,
+                    "votes": 93819,
+                    "percentage": 2.98,
+                    "seats": 3
+                },
+                {
+                    "party_name": "עם אחד",
+                    "letters": null,
+                    "votes": 86808,
+                    "percentage": 2.76,
+                    "seats": 3
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": 71299,
+                    "percentage": 2.26,
+                    "seats": 3
+                },
+                {
+                    "party_name": "ישראל בעלייה",
+                    "letters": null,
+                    "votes": 67719,
+                    "percentage": 2.15,
+                    "seats": 2
+                },
+                {
+                    "party_name": "הרשימה הערבית המאוחדת",
+                    "letters": null,
+                    "votes": 65551,
+                    "percentage": 2.08,
+                    "seats": 2
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-17",
+            "election_date": "2006-03-28",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=17",
+            "general_statistics": {
+                "eligible_voters": 5014622,
+                "total_votes": 3186739,
+                "valid_votes": 3137064,
+                "invalid_votes": 49675,
+                "turnout_percentage": 63.5,
+                "passed_threshold_percentage": 2.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "קדימה",
+                    "letters": null,
+                    "votes": 690901,
+                    "percentage": 22.02,
+                    "seats": 29
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": null,
+                    "votes": 472366,
+                    "percentage": 15.06,
+                    "seats": 19
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 299054,
+                    "percentage": 9.53,
+                    "seats": 12
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 281996,
+                    "percentage": 8.99,
+                    "seats": 12
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": null,
+                    "votes": 281880,
+                    "percentage": 8.99,
+                    "seats": 11
+                },
+                {
+                    "party_name": "האיחוד הלאומי–מפד״ל",
+                    "letters": null,
+                    "votes": 224083,
+                    "percentage": 7.14,
+                    "seats": 9
+                },
+                {
+                    "party_name": "גיל – גמלאי ישראל לכנסת",
+                    "letters": null,
+                    "votes": 185759,
+                    "percentage": 5.92,
+                    "seats": 7
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 147091,
+                    "percentage": 4.69,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": 118302,
+                    "percentage": 3.77,
+                    "seats": 5
+                },
+                {
+                    "party_name": "חד״ש",
+                    "letters": null,
+                    "votes": 86092,
+                    "percentage": 2.74,
+                    "seats": 3
+                },
+                {
+                    "party_name": "רע״ם–תע״ל",
+                    "letters": null,
+                    "votes": 94786,
+                    "percentage": 3.02,
+                    "seats": 4
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": 72066,
+                    "percentage": 2.3,
+                    "seats": 3
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-18",
+            "election_date": "2009-02-10",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=18",
+            "general_statistics": {
+                "eligible_voters": 5278985,
+                "total_votes": 3416587,
+                "valid_votes": 3313490,
+                "invalid_votes": 103097,
+                "turnout_percentage": 64.7,
+                "passed_threshold_percentage": 2.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "קדימה",
+                    "letters": null,
+                    "votes": 758032,
+                    "percentage": 22.88,
+                    "seats": 28
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": null,
+                    "votes": 729054,
+                    "percentage": 22.0,
+                    "seats": 27
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": null,
+                    "votes": 394577,
+                    "percentage": 11.91,
+                    "seats": 15
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": null,
+                    "votes": 334900,
+                    "percentage": 10.11,
+                    "seats": 13
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 286300,
+                    "percentage": 8.64,
+                    "seats": 11
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 147954,
+                    "percentage": 4.47,
+                    "seats": 5
+                },
+                {
+                    "party_name": "האיחוד הלאומי",
+                    "letters": null,
+                    "votes": 113954,
+                    "percentage": 3.44,
+                    "seats": 4
+                },
+                {
+                    "party_name": "חד״ש",
+                    "letters": null,
+                    "votes": 112570,
+                    "percentage": 3.4,
+                    "seats": 4
+                },
+                {
+                    "party_name": "רע״ם–תע״ל",
+                    "letters": null,
+                    "votes": 112130,
+                    "percentage": 3.38,
+                    "seats": 4
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": 99611,
+                    "percentage": 3.01,
+                    "seats": 3
+                },
+                {
+                    "party_name": "הבית היהודי",
+                    "letters": null,
+                    "votes": 96765,
+                    "percentage": 2.92,
+                    "seats": 3
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": 83739,
+                    "percentage": 2.53,
+                    "seats": 3
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-19",
+            "election_date": "2013-01-22",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=19",
+            "general_statistics": {
+                "eligible_voters": 5656705,
+                "total_votes": 3833646,
+                "valid_votes": 3792742,
+                "invalid_votes": 40904,
+                "turnout_percentage": 67.8,
+                "passed_threshold_percentage": 2.0
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד–ישראל ביתנו",
+                    "letters": null,
+                    "votes": 885163,
+                    "percentage": 23.34,
+                    "seats": 31
+                },
+                {
+                    "party_name": "יש עתיד",
+                    "letters": null,
+                    "votes": 543458,
+                    "percentage": 14.33,
+                    "seats": 19
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": null,
+                    "votes": 432118,
+                    "percentage": 11.39,
+                    "seats": 15
+                },
+                {
+                    "party_name": "הבית היהודי",
+                    "letters": null,
+                    "votes": 345985,
+                    "percentage": 9.12,
+                    "seats": 12
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": null,
+                    "votes": 331868,
+                    "percentage": 8.75,
+                    "seats": 11
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": null,
+                    "votes": 195892,
+                    "percentage": 5.16,
+                    "seats": 7
+                },
+                {
+                    "party_name": "התנועה",
+                    "letters": null,
+                    "votes": 189167,
+                    "percentage": 4.99,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": null,
+                    "votes": 172403,
+                    "percentage": 4.55,
+                    "seats": 6
+                },
+                {
+                    "party_name": "הרשימה הערבית המאוחדת",
+                    "letters": null,
+                    "votes": 138450,
+                    "percentage": 3.65,
+                    "seats": 4
+                },
+                {
+                    "party_name": "חד״ש",
+                    "letters": null,
+                    "votes": 113439,
+                    "percentage": 2.99,
+                    "seats": 4
+                },
+                {
+                    "party_name": "בל״ד",
+                    "letters": null,
+                    "votes": 97030,
+                    "percentage": 2.56,
+                    "seats": 3
+                },
+                {
+                    "party_name": "קדימה",
+                    "letters": null,
+                    "votes": 78974,
+                    "percentage": 2.08,
+                    "seats": 2
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-20",
+            "election_date": "2015-03-17",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=20",
+            "general_statistics": {
+                "eligible_voters": 5881696,
+                "total_votes": 4254738,
+                "valid_votes": 4210884,
+                "invalid_votes": 43854,
+                "turnout_percentage": 72.3,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 985408,
+                    "percentage": 23.4,
+                    "seats": 30
+                },
+                {
+                    "party_name": "המחנה הציוני",
+                    "letters": "אמת",
+                    "votes": 786313,
+                    "percentage": 18.67,
+                    "seats": 24
+                },
+                {
+                    "party_name": "הרשימה המשותפת",
+                    "letters": "ודעם",
+                    "votes": 446583,
+                    "percentage": 10.61,
+                    "seats": 13
+                },
+                {
+                    "party_name": "יש עתיד",
+                    "letters": "פה",
+                    "votes": 371602,
+                    "percentage": 8.82,
+                    "seats": 11
+                },
+                {
+                    "party_name": "כולנו",
+                    "letters": "כ",
+                    "votes": 315360,
+                    "percentage": 7.49,
+                    "seats": 10
+                },
+                {
+                    "party_name": "הבית היהודי",
+                    "letters": "טב",
+                    "votes": 283910,
+                    "percentage": 6.74,
+                    "seats": 8
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 241613,
+                    "percentage": 5.74,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 214906,
+                    "percentage": 5.1,
+                    "seats": 6
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 210143,
+                    "percentage": 4.99,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": "מרצ",
+                    "votes": 165529,
+                    "percentage": 3.93,
+                    "seats": 5
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-21",
+            "election_date": "2019-04-09",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=21",
+            "general_statistics": {
+                "eligible_voters": 6339729,
+                "total_votes": 4340253,
+                "valid_votes": 4309270,
+                "invalid_votes": 30983,
+                "turnout_percentage": 68.5,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 1140370,
+                    "percentage": 26.46,
+                    "seats": 35
+                },
+                {
+                    "party_name": "כחול לבן",
+                    "letters": "פה",
+                    "votes": 1125881,
+                    "percentage": 26.13,
+                    "seats": 35
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 258275,
+                    "percentage": 5.99,
+                    "seats": 8
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 249049,
+                    "percentage": 5.78,
+                    "seats": 8
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": "אמת",
+                    "votes": 190870,
+                    "percentage": 4.43,
+                    "seats": 6
+                },
+                {
+                    "party_name": "חד״ש–תע״ל",
+                    "letters": null,
+                    "votes": 193442,
+                    "percentage": 4.49,
+                    "seats": 6
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 173004,
+                    "percentage": 4.01,
+                    "seats": 5
+                },
+                {
+                    "party_name": "איחוד מפלגות הימין",
+                    "letters": "טב",
+                    "votes": 159468,
+                    "percentage": 3.7,
+                    "seats": 5
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": "מרצ",
+                    "votes": 156473,
+                    "percentage": 3.63,
+                    "seats": 4
+                },
+                {
+                    "party_name": "כולנו",
+                    "letters": "כ",
+                    "votes": 152756,
+                    "percentage": 3.54,
+                    "seats": 4
+                },
+                {
+                    "party_name": "רע״ם–בל״ד",
+                    "letters": "עם",
+                    "votes": 143666,
+                    "percentage": 3.33,
+                    "seats": 4
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-22",
+            "election_date": "2019-09-17",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=22",
+            "general_statistics": {
+                "eligible_voters": 6394030,
+                "total_votes": 4465168,
+                "valid_votes": 4436806,
+                "invalid_votes": 28362,
+                "turnout_percentage": 69.8,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "כחול לבן",
+                    "letters": "פה",
+                    "votes": 1151214,
+                    "percentage": 25.95,
+                    "seats": 33
+                },
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 1113617,
+                    "percentage": 25.1,
+                    "seats": 32
+                },
+                {
+                    "party_name": "הרשימה המשותפת",
+                    "letters": "ודעם",
+                    "votes": 470211,
+                    "percentage": 10.6,
+                    "seats": 13
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 330199,
+                    "percentage": 7.44,
+                    "seats": 9
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 310154,
+                    "percentage": 6.99,
+                    "seats": 8
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 268775,
+                    "percentage": 6.06,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ימינה",
+                    "letters": "טב",
+                    "votes": 260655,
+                    "percentage": 5.87,
+                    "seats": 7
+                },
+                {
+                    "party_name": "העבודה–גשר",
+                    "letters": "אמת",
+                    "votes": 212782,
+                    "percentage": 4.8,
+                    "seats": 6
+                },
+                {
+                    "party_name": "המחנה הדמוקרטי",
+                    "letters": "מרצ",
+                    "votes": 192495,
+                    "percentage": 4.34,
+                    "seats": 5
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-23",
+            "election_date": "2020-03-02",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=23",
+            "general_statistics": {
+                "eligible_voters": 6453255,
+                "total_votes": 4615135,
+                "valid_votes": 4590062,
+                "invalid_votes": 25073,
+                "turnout_percentage": 71.5,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 1352449,
+                    "percentage": 29.46,
+                    "seats": 36
+                },
+                {
+                    "party_name": "כחול לבן",
+                    "letters": "פה",
+                    "votes": 1220381,
+                    "percentage": 26.59,
+                    "seats": 33
+                },
+                {
+                    "party_name": "הרשימה המשותפת",
+                    "letters": "ודעם",
+                    "votes": 581507,
+                    "percentage": 12.67,
+                    "seats": 15
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 352853,
+                    "percentage": 7.69,
+                    "seats": 9
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 274437,
+                    "percentage": 5.98,
+                    "seats": 7
+                },
+                {
+                    "party_name": "העבודה–גשר–מרצ",
+                    "letters": "אמת",
+                    "votes": 267480,
+                    "percentage": 5.83,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ימינה",
+                    "letters": "טב",
+                    "votes": 240689,
+                    "percentage": 5.24,
+                    "seats": 6
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 263365,
+                    "percentage": 5.74,
+                    "seats": 7
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-24",
+            "election_date": "2021-03-23",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=24",
+            "general_statistics": {
+                "eligible_voters": 6578084,
+                "total_votes": 4436365,
+                "valid_votes": 4410052,
+                "invalid_votes": 26313,
+                "turnout_percentage": 67.4,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 1066892,
+                    "percentage": 24.19,
+                    "seats": 30
+                },
+                {
+                    "party_name": "יש עתיד",
+                    "letters": "פה",
+                    "votes": 614112,
+                    "percentage": 13.93,
+                    "seats": 17
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 316008,
+                    "percentage": 7.17,
+                    "seats": 9
+                },
+                {
+                    "party_name": "כחול לבן",
+                    "letters": "כן",
+                    "votes": 292257,
+                    "percentage": 6.63,
+                    "seats": 8
+                },
+                {
+                    "party_name": "ימינה",
+                    "letters": "טב",
+                    "votes": 273836,
+                    "percentage": 6.21,
+                    "seats": 7
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": "אמת",
+                    "votes": 268767,
+                    "percentage": 6.09,
+                    "seats": 7
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 248391,
+                    "percentage": 5.63,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 248370,
+                    "percentage": 5.63,
+                    "seats": 7
+                },
+                {
+                    "party_name": "הציונות הדתית",
+                    "letters": "ט",
+                    "votes": 225641,
+                    "percentage": 5.12,
+                    "seats": 6
+                },
+                {
+                    "party_name": "הרשימה המשותפת",
+                    "letters": null,
+                    "votes": 212583,
+                    "percentage": 4.82,
+                    "seats": 6
+                },
+                {
+                    "party_name": "תקווה חדשה",
+                    "letters": "ת",
+                    "votes": 209161,
+                    "percentage": 4.74,
+                    "seats": 6
+                },
+                {
+                    "party_name": "מרצ",
+                    "letters": "מרצ",
+                    "votes": 202218,
+                    "percentage": 4.59,
+                    "seats": 6
+                },
+                {
+                    "party_name": "רע״ם",
+                    "letters": "עם",
+                    "votes": 167064,
+                    "percentage": 3.79,
+                    "seats": 4
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-25",
+            "election_date": "2022-11-01",
+            "result_status": "final",
+            "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=25",
+            "general_statistics": {
+                "eligible_voters": 6788804,
+                "total_votes": 4794593,
+                "valid_votes": 4764742,
+                "invalid_votes": 29851,
+                "turnout_percentage": 70.6,
+                "passed_threshold_percentage": 3.25
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד",
+                    "letters": "מחל",
+                    "votes": 1115336,
+                    "percentage": 23.41,
+                    "seats": 32
+                },
+                {
+                    "party_name": "יש עתיד",
+                    "letters": "פה",
+                    "votes": 847435,
+                    "percentage": 17.79,
+                    "seats": 24
+                },
+                {
+                    "party_name": "הציונות הדתית",
+                    "letters": "ט",
+                    "votes": 516470,
+                    "percentage": 10.84,
+                    "seats": 14
+                },
+                {
+                    "party_name": "המחנה הממלכתי",
+                    "letters": "כן",
+                    "votes": 432482,
+                    "percentage": 9.08,
+                    "seats": 12
+                },
+                {
+                    "party_name": "ש״ס",
+                    "letters": "שס",
+                    "votes": 392964,
+                    "percentage": 8.25,
+                    "seats": 11
+                },
+                {
+                    "party_name": "יהדות התורה",
+                    "letters": "ג",
+                    "votes": 280194,
+                    "percentage": 5.88,
+                    "seats": 7
+                },
+                {
+                    "party_name": "ישראל ביתנו",
+                    "letters": "ל",
+                    "votes": 213687,
+                    "percentage": 4.48,
+                    "seats": 6
+                },
+                {
+                    "party_name": "רע״ם",
+                    "letters": "עם",
+                    "votes": 194047,
+                    "percentage": 4.07,
+                    "seats": 5
+                },
+                {
+                    "party_name": "חד״ש–תע״ל",
+                    "letters": null,
+                    "votes": 178735,
+                    "percentage": 3.75,
+                    "seats": 5
+                },
+                {
+                    "party_name": "העבודה",
+                    "letters": "אמת",
+                    "votes": 175992,
+                    "percentage": 3.69,
+                    "seats": 4
+                }
+            ]
+        },
+        {
+            "election": "בחירות לכנסת ה-26",
+            "election_date": "2026-10-29",
+            "result_status": "not-final",
+            "source_url": "https://votes26.bechirot.gov.il/nationalresults",
+            "general_statistics": {
+                "eligible_voters": 7331981,
+                "total_votes": 5344198,
+                "valid_votes": 5320404,
+                "invalid_votes": 23794,
+                "turnout_percentage": 72.89,
+                "passed_threshold_percentage": 3.25
+            },
+            "notes": {
+                "data_as_of": "2026-10-29 10:02",
+                "source": "ועדת הבחירות המרכזית - votes26.bechirot.gov.il/nationalresults",
+                "polling_stations_counted": 12161,
+                "double_envelopes": "לא מופיעות בדף התוצאות הרשמי; הנתונים אינם כוללים אותן",
+                "seats_note": "הדף הרשמי אינו מציג מנדטים. המנדטים חושבו בשיטת בדר-עופר מהקולות שלעיל, ללא הסכמי עודפים, ולכן הם הערכה ועשויים להיות שונים מהחלוקה הרשמית.",
+                "threshold_votes_minimum": 172914,
+                "share_of_valid_votes_of_parties_passing_threshold": 94.74
+            },
+            "parties_passed_threshold": [
+                {
+                    "party_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+                    "letters": "מחל",
+                    "votes": 1097210,
+                    "percentage": 20.62,
+                    "seats": 27
+                },
+                {
+                    "party_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+                    "letters": "דרך",
+                    "votes": 858953,
+                    "percentage": 16.14,
+                    "seats": 21
+                },
+                {
+                    "party_name": "ביחד בראשות נפתלי בנט",
+                    "letters": "רק",
+                    "votes": 485082,
+                    "percentage": 9.12,
+                    "seats": 12
+                },
+                {
+                    "party_name": "הרשימה המשותפת",
+                    "letters": "ודם",
+                    "votes": 483329,
+                    "percentage": 9.08,
+                    "seats": 11
+                },
+                {
+                    "party_name": "הדמוקרטים בראשות יאיר גולן",
+                    "letters": "אמת",
+                    "votes": 344604,
+                    "percentage": 6.48,
+                    "seats": 8
+                },
+                {
+                    "party_name": "רע\"ם - הרשימה הערבית המאוחדת",
+                    "letters": "עם",
+                    "votes": 322230,
+                    "percentage": 6.06,
+                    "seats": 8
+                },
+                {
+                    "party_name": "ישראל ביתנו בראשות אביגדור ליברמן",
+                    "letters": "ל",
+                    "votes": 315661,
+                    "percentage": 5.93,
+                    "seats": 7
+                },
+                {
+                    "party_name": "עוצמה יהודית בראשות איתמר בן גביר",
+                    "letters": "ב",
+                    "votes": 297789,
+                    "percentage": 5.6,
+                    "seats": 7
+                },
+                {
+                    "party_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+                    "letters": "ג",
+                    "votes": 297552,
+                    "percentage": 5.59,
+                    "seats": 7
+                },
+                {
+                    "party_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+                    "letters": "שס",
+                    "votes": 281218,
+                    "percentage": 5.29,
+                    "seats": 6
+                },
+                {
+                    "party_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+                    "letters": "ט",
+                    "votes": 256708,
+                    "percentage": 4.82,
+                    "seats": 6
+                }
+            ]
+        }
     ]
-  },
-  "elections": [
-    {
-      "election": "בחירות לכנסת ה-1",
-      "election_date": "1949-01-25",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=1",
-      "general_statistics": {
-        "eligible_voters": 506567,
-        "total_votes": 440095,
-        "valid_votes": 434684,
-        "invalid_votes": 5411,
-        "turnout_percentage": 86.9,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
-          "letters": null,
-          "votes": 155274,
-          "percentage": 35.72,
-          "seats": 46
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": 64018,
-          "percentage": 14.73,
-          "seats": 19
-        },
-        {
-          "party_name": "חזית דתית מאוחדת",
-          "letters": null,
-          "votes": 52982,
-          "percentage": 12.19,
-          "seats": 16
-        },
-        {
-          "party_name": "תנועת החרות",
-          "letters": null,
-          "votes": 49782,
-          "percentage": 11.45,
-          "seats": 14
-        },
-        {
-          "party_name": "ציונים כלליים",
-          "letters": null,
-          "votes": 22661,
-          "percentage": 5.21,
-          "seats": 7
-        },
-        {
-          "party_name": "ספרדים ועדות מזרח",
-          "letters": null,
-          "votes": 15287,
-          "percentage": 3.52,
-          "seats": 4
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": 15148,
-          "percentage": 3.48,
-          "seats": 4
-        },
-        {
-          "party_name": "רשימה דמוקרטית של נצרת",
-          "letters": null,
-          "votes": 7387,
-          "percentage": 1.7,
-          "seats": 2
-        },
-        {
-          "party_name": "רשימת הלוחמים",
-          "letters": null,
-          "votes": 5363,
-          "percentage": 1.23,
-          "seats": 1
-        },
-        {
-          "party_name": "ויצ״ו",
-          "letters": null,
-          "votes": 5173,
-          "percentage": 1.19,
-          "seats": 1
-        },
-        {
-          "party_name": "התאחדות התימנים בישראל",
-          "letters": null,
-          "votes": 4399,
-          "percentage": 1.01,
-          "seats": 1
-        },
-        {
-          "party_name": "המפלגה הפרוגרסיבית",
-          "letters": null,
-          "votes": 17786,
-          "percentage": 4.09,
-          "seats": 5
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-2",
-      "election_date": "1951-07-30",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=2",
-      "general_statistics": {
-        "eligible_voters": 924885,
-        "total_votes": 695007,
-        "valid_votes": 687492,
-        "invalid_votes": 7515,
-        "turnout_percentage": 75.1,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
-          "letters": null,
-          "votes": 256456,
-          "percentage": 37.3,
-          "seats": 45
-        },
-        {
-          "party_name": "ציונים כלליים",
-          "letters": null,
-          "votes": 111394,
-          "percentage": 16.2,
-          "seats": 20
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": 86095,
-          "percentage": 12.52,
-          "seats": 15
-        },
-        {
-          "party_name": "הפועל המזרחי",
-          "letters": null,
-          "votes": 46347,
-          "percentage": 6.74,
-          "seats": 8
-        },
-        {
-          "party_name": "תנועת החרות",
-          "letters": null,
-          "votes": 45651,
-          "percentage": 6.64,
-          "seats": 8
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": 27334,
-          "percentage": 3.98,
-          "seats": 5
-        },
-        {
-          "party_name": "המפלגה הפרוגרסיבית",
-          "letters": null,
-          "votes": 22171,
-          "percentage": 3.22,
-          "seats": 5
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המזרחי",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ספרדים ועדות מזרח",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "התאחדות התימנים בישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "חקלאות ופיתוח",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-3",
-      "election_date": "1955-07-26",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=3",
-      "general_statistics": {
-        "eligible_voters": 1057795,
-        "total_votes": 876085,
-        "valid_votes": 853219,
-        "invalid_votes": 22866,
-        "turnout_percentage": 82.8,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
-          "letters": null,
-          "votes": 274735,
-          "percentage": 32.2,
-          "seats": 40
-        },
-        {
-          "party_name": "תנועת החרות",
-          "letters": null,
-          "votes": 107190,
-          "percentage": 12.56,
-          "seats": 15
-        },
-        {
-          "party_name": "ציונים כלליים",
-          "letters": null,
-          "votes": 87099,
-          "percentage": 10.21,
-          "seats": 13
-        },
-        {
-          "party_name": "חזית דתית לאומית",
-          "letters": null,
-          "votes": 77936,
-          "percentage": 9.13,
-          "seats": 11
-        },
-        {
-          "party_name": "אחדות העבודה – פועלי ציון",
-          "letters": null,
-          "votes": 69475,
-          "percentage": 8.14,
-          "seats": 10
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": 62401,
-          "percentage": 7.31,
-          "seats": 9
-        },
-        {
-          "party_name": "חזית דתית תורתית",
-          "letters": null,
-          "votes": 39836,
-          "percentage": 4.67,
-          "seats": 6
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": 38492,
-          "percentage": 4.51,
-          "seats": 6
-        },
-        {
-          "party_name": "המפלגה הפרוגרסיבית",
-          "letters": null,
-          "votes": 37661,
-          "percentage": 4.41,
-          "seats": 5
-        },
-        {
-          "party_name": "רשימה דמוקרטית לערביי ישראל",
-          "letters": null,
-          "votes": 15475,
-          "percentage": 1.81,
-          "seats": 2
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 2
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-4",
-      "election_date": "1959-11-03",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=4",
-      "general_statistics": {
-        "eligible_voters": 1218483,
-        "total_votes": 994306,
-        "valid_votes": 969337,
-        "invalid_votes": 24969,
-        "turnout_percentage": 81.6,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "תנועת החרות",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "חזית דתית לאומית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ציונים כלליים",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "אחדות העבודה – פועלי ציון",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המפלגה הפרוגרסיבית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "קידמה ופיתוח",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "שיתוף ואחווה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-5",
-      "election_date": "1961-08-15",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=5",
-      "general_statistics": {
-        "eligible_voters": 1271285,
-        "total_votes": 1037030,
-        "valid_votes": 1006964,
-        "invalid_votes": 30066,
-        "turnout_percentage": 81.6,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "מפלגת פועלי ארץ-ישראל (מפא״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 42
-        },
-        {
-          "party_name": "תנועת החרות",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 17
-        },
-        {
-          "party_name": "גוש חרות–ליברלים",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 17
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 12
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 9
-        },
-        {
-          "party_name": "אחדות העבודה – פועלי ציון",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 8
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 5
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 4
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 2
-        },
-        {
-          "party_name": "שיתוף ואחווה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 2
-        },
-        {
-          "party_name": "קידמה ופיתוח",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 2
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-6",
-      "election_date": "1965-11-02",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=6",
-      "general_statistics": {
-        "eligible_voters": 1499709,
-        "total_votes": 1244706,
-        "valid_votes": 1206728,
-        "invalid_votes": 37978,
-        "turnout_percentage": 83.0,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": 443379,
-          "percentage": 36.74,
-          "seats": 45
-        },
-        {
-          "party_name": "גוש חרות–ליברלים (גח״ל)",
-          "letters": null,
-          "votes": 256957,
-          "percentage": 21.29,
-          "seats": 26
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 107966,
-          "percentage": 8.95,
-          "seats": 11
-        },
-        {
-          "party_name": "רשימת פועלים ישראלית (רפ״י)",
-          "letters": null,
-          "votes": 95328,
-          "percentage": 7.9,
-          "seats": 10
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": 79985,
-          "percentage": 6.63,
-          "seats": 8
-        },
-        {
-          "party_name": "ליברלים עצמאיים",
-          "letters": null,
-          "votes": 45299,
-          "percentage": 3.75,
-          "seats": 5
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": 39795,
-          "percentage": 3.3,
-          "seats": 4
-        },
-        {
-          "party_name": "רשימה קומוניסטית חדשה (רק״ח)",
-          "letters": null,
-          "votes": 27413,
-          "percentage": 2.27,
-          "seats": 3
-        },
-        {
-          "party_name": "קידמה ופיתוח",
-          "letters": null,
-          "votes": 23430,
-          "percentage": 1.94,
-          "seats": 2
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": 22066,
-          "percentage": 1.83,
-          "seats": 2
-        },
-        {
-          "party_name": "שיתוף ואחווה",
-          "letters": null,
-          "votes": 16464,
-          "percentage": 1.36,
-          "seats": 2
-        },
-        {
-          "party_name": "העולם הזה – כוח חדש",
-          "letters": null,
-          "votes": 14124,
-          "percentage": 1.17,
-          "seats": 1
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-7",
-      "election_date": "1969-10-28",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=7",
-      "general_statistics": {
-        "eligible_voters": 1748710,
-        "total_votes": 1427981,
-        "valid_votes": 1367743,
-        "invalid_votes": 60238,
-        "turnout_percentage": 81.7,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "גוש חרות–ליברלים (גח״ל)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "הרשימה הממלכתית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ליברלים עצמאיים",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "רשימה קומוניסטית חדשה (רק״ח)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המרכז החופשי",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "קידמה ופיתוח",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "שיתוף ואחווה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מפלגה קומוניסטית ישראלית (מק״י)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-8",
-      "election_date": "1973-12-31",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=8",
-      "general_statistics": {
-        "eligible_voters": 2037478,
-        "total_votes": 1601098,
-        "valid_votes": 1566855,
-        "invalid_votes": 34243,
-        "turnout_percentage": 78.6,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": 621183,
-          "percentage": 39.65,
-          "seats": 51
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 473309,
-          "percentage": 30.21,
-          "seats": 39
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 130349,
-          "percentage": 8.32,
-          "seats": 10
-        },
-        {
-          "party_name": "חזית תורתית דתית",
-          "letters": null,
-          "votes": 60012,
-          "percentage": 3.83,
-          "seats": 5
-        },
-        {
-          "party_name": "ליברלים עצמאיים",
-          "letters": null,
-          "votes": 56560,
-          "percentage": 3.61,
-          "seats": 4
-        },
-        {
-          "party_name": "הרשימה הקומוניסטית החדשה",
-          "letters": null,
-          "votes": 53353,
-          "percentage": 3.41,
-          "seats": 4
-        },
-        {
-          "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
-          "letters": null,
-          "votes": 35023,
-          "percentage": 2.24,
-          "seats": 3
-        },
-        {
-          "party_name": "קידמה ופיתוח",
-          "letters": null,
-          "votes": 22604,
-          "percentage": 1.44,
-          "seats": 2
-        },
-        {
-          "party_name": "מוקד",
-          "letters": null,
-          "votes": 22147,
-          "percentage": 1.41,
-          "seats": 1
-        },
-        {
-          "party_name": "הרשימה הערבית לבדואים ולכפריים",
-          "letters": null,
-          "votes": 16408,
-          "percentage": 1.05,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-9",
-      "election_date": "1977-05-17",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=9",
-      "general_statistics": {
-        "eligible_voters": 2236293,
-        "total_votes": 1771726,
-        "valid_votes": 1747820,
-        "invalid_votes": 23906,
-        "turnout_percentage": 79.2,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 583968,
-          "percentage": 33.41,
-          "seats": 43
-        },
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": 430023,
-          "percentage": 24.6,
-          "seats": 32
-        },
-        {
-          "party_name": "התנועה הדמוקרטית לשינוי (ד״ש)",
-          "letters": null,
-          "votes": 202265,
-          "percentage": 11.57,
-          "seats": 15
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 160787,
-          "percentage": 9.2,
-          "seats": 12
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": 80118,
-          "percentage": 4.58,
-          "seats": 5
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": 58652,
-          "percentage": 3.36,
-          "seats": 4
-        },
-        {
-          "party_name": "שמואל פלאטו-שרון",
-          "letters": null,
-          "votes": 35049,
-          "percentage": 2.01,
-          "seats": 1
-        },
-        {
-          "party_name": "שלומציון",
-          "letters": null,
-          "votes": 33947,
-          "percentage": 1.94,
-          "seats": 2
-        },
-        {
-          "party_name": "מחנה של״י",
-          "letters": null,
-          "votes": 27281,
-          "percentage": 1.56,
-          "seats": 2
-        },
-        {
-          "party_name": "הרשימה הערבית המאוחדת",
-          "letters": null,
-          "votes": 24185,
-          "percentage": 1.38,
-          "seats": 1
-        },
-        {
-          "party_name": "פועלי אגודת ישראל",
-          "letters": null,
-          "votes": 23571,
-          "percentage": 1.35,
-          "seats": 1
-        },
-        {
-          "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
-          "letters": null,
-          "votes": 20621,
-          "percentage": 1.18,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-10",
-      "election_date": "1981-06-30",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=10",
-      "general_statistics": {
-        "eligible_voters": 2490014,
-        "total_votes": 1954609,
-        "valid_votes": 1937366,
-        "invalid_votes": 17243,
-        "turnout_percentage": 78.5,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 718941,
-          "percentage": 37.11,
-          "seats": 48
-        },
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": 708536,
-          "percentage": 36.57,
-          "seats": 47
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 95232,
-          "percentage": 4.92,
-          "seats": 6
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": 72312,
-          "percentage": 3.73,
-          "seats": 4
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": 64918,
-          "percentage": 3.35,
-          "seats": 4
-        },
-        {
-          "party_name": "התחייה",
-          "letters": null,
-          "votes": 44700,
-          "percentage": 2.31,
-          "seats": 3
-        },
-        {
-          "party_name": "תנועה למסורת ישראל (תמ״י)",
-          "letters": null,
-          "votes": 44466,
-          "percentage": 2.3,
-          "seats": 3
-        },
-        {
-          "party_name": "תנועה להתחדשות ממלכתית (תל״ם)",
-          "letters": null,
-          "votes": 30600,
-          "percentage": 1.58,
-          "seats": 2
-        },
-        {
-          "party_name": "שינוי",
-          "letters": null,
-          "votes": 29837,
-          "percentage": 1.54,
-          "seats": 2
-        },
-        {
-          "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
-          "letters": null,
-          "votes": 27921,
-          "percentage": 1.44,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-11",
-      "election_date": "1984-07-23",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=11",
-      "general_statistics": {
-        "eligible_voters": 2654613,
-        "total_votes": 2091402,
-        "valid_votes": 2073321,
-        "invalid_votes": 18081,
-        "turnout_percentage": 79.8,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "התחייה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "שינוי",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "יחד",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מורשה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "הרשימה המתקדמת לשלום",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "כך",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "תמ״י",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-12",
-      "election_date": "1988-11-01",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=12",
-      "general_statistics": {
-        "eligible_voters": 2894267,
-        "total_votes": 2305567,
-        "valid_votes": 2283123,
-        "invalid_votes": 22444,
-        "turnout_percentage": 79.7,
-        "passed_threshold_percentage": 1.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 709305,
-          "percentage": 31.07,
-          "seats": 40
-        },
-        {
-          "party_name": "המערך",
-          "letters": null,
-          "votes": 685363,
-          "percentage": 30.02,
-          "seats": 39
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 107709,
-          "percentage": 4.72,
-          "seats": 6
-        },
-        {
-          "party_name": "אגודת ישראל",
-          "letters": null,
-          "votes": 102714,
-          "percentage": 4.5,
-          "seats": 5
-        },
-        {
-          "party_name": "ר״ץ – התנועה לזכויות האזרח ולשלום",
-          "letters": null,
-          "votes": 97513,
-          "percentage": 4.27,
-          "seats": 5
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 89720,
-          "percentage": 3.93,
-          "seats": 5
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": 84032,
-          "percentage": 3.68,
-          "seats": 4
-        },
-        {
-          "party_name": "התחייה",
-          "letters": null,
-          "votes": 70730,
-          "percentage": 3.1,
-          "seats": 3
-        },
-        {
-          "party_name": "מפלגת פועלים מאוחדת (מפ״ם)",
-          "letters": null,
-          "votes": 56345,
-          "percentage": 2.47,
-          "seats": 3
-        },
-        {
-          "party_name": "צומת",
-          "letters": null,
-          "votes": 45489,
-          "percentage": 1.99,
-          "seats": 2
-        },
-        {
-          "party_name": "מולדת",
-          "letters": null,
-          "votes": 44174,
-          "percentage": 1.93,
-          "seats": 2
-        },
-        {
-          "party_name": "שינוי",
-          "letters": null,
-          "votes": 39538,
-          "percentage": 1.73,
-          "seats": 2
-        },
-        {
-          "party_name": "דגל התורה",
-          "letters": null,
-          "votes": 34279,
-          "percentage": 1.5,
-          "seats": 2
-        },
-        {
-          "party_name": "הרשימה המתקדמת לשלום",
-          "letters": null,
-          "votes": 33695,
-          "percentage": 1.48,
-          "seats": 1
-        },
-        {
-          "party_name": "המפלגה הדמוקרטית הערבית (מד״ע)",
-          "letters": null,
-          "votes": 27012,
-          "percentage": 1.18,
-          "seats": 1
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-13",
-      "election_date": "1992-06-23",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=13",
-      "general_statistics": {
-        "eligible_voters": 3409015,
-        "total_votes": 2637943,
-        "valid_votes": 2616841,
-        "invalid_votes": 21102,
-        "turnout_percentage": 77.4,
-        "passed_threshold_percentage": 1.5
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "העבודה",
-          "letters": null,
-          "votes": 906810,
-          "percentage": 34.65,
-          "seats": 44
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 651229,
-          "percentage": 24.89,
-          "seats": 32
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": 250667,
-          "percentage": 9.58,
-          "seats": 12
-        },
-        {
-          "party_name": "צומת",
-          "letters": null,
-          "votes": 165074,
-          "percentage": 6.31,
-          "seats": 8
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 129347,
-          "percentage": 4.94,
-          "seats": 6
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 98018,
-          "percentage": 3.75,
-          "seats": 6
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 86167,
-          "percentage": 3.29,
-          "seats": 4
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": 62546,
-          "percentage": 2.39,
-          "seats": 3
-        },
-        {
-          "party_name": "מולדת",
-          "letters": null,
-          "votes": 62269,
-          "percentage": 2.38,
-          "seats": 3
-        },
-        {
-          "party_name": "המפלגה הדמוקרטית הערבית (מד״ע)",
-          "letters": null,
-          "votes": 37600,
-          "percentage": 1.44,
-          "seats": 2
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-14",
-      "election_date": "1996-05-29",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=14",
-      "general_statistics": {
-        "eligible_voters": 3933250,
-        "total_votes": 3119832,
-        "valid_votes": 3052130,
-        "invalid_votes": 67702,
-        "turnout_percentage": 79.3,
-        "passed_threshold_percentage": 1.5
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "ישראל – גשר – צומת",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "העבודה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "ישראל בעלייה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "הרשימה הערבית המאוחדת",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "הדרך השלישית",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        },
-        {
-          "party_name": "מולדת",
-          "letters": null,
-          "votes": null,
-          "percentage": null,
-          "seats": null
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-15",
-      "election_date": "1999-05-17",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=15",
-      "general_statistics": {
-        "eligible_voters": 4285428,
-        "total_votes": 3373748,
-        "valid_votes": 3309416,
-        "invalid_votes": 64332,
-        "turnout_percentage": 78.7,
-        "passed_threshold_percentage": 1.5
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "ישראל אחת",
-          "letters": null,
-          "votes": 670484,
-          "percentage": 20.26,
-          "seats": 26
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 468103,
-          "percentage": 14.14,
-          "seats": 19
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 430676,
-          "percentage": 13.01,
-          "seats": 17
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": 253525,
-          "percentage": 7.66,
-          "seats": 10
-        },
-        {
-          "party_name": "ישראל בעלייה",
-          "letters": null,
-          "votes": 171705,
-          "percentage": 5.19,
-          "seats": 6
-        },
-        {
-          "party_name": "שינוי",
-          "letters": null,
-          "votes": 167748,
-          "percentage": 5.07,
-          "seats": 6
-        },
-        {
-          "party_name": "מפלגת המרכז",
-          "letters": null,
-          "votes": 165622,
-          "percentage": 5.0,
-          "seats": 6
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 140307,
-          "percentage": 4.24,
-          "seats": 5
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 125741,
-          "percentage": 3.8,
-          "seats": 5
-        },
-        {
-          "party_name": "רע״ם",
-          "letters": null,
-          "votes": 114810,
-          "percentage": 3.47,
-          "seats": 5
-        },
-        {
-          "party_name": "האיחוד הלאומי",
-          "letters": null,
-          "votes": 100181,
-          "percentage": 3.03,
-          "seats": 4
-        },
-        {
-          "party_name": "חזית דמוקרטית לשלום ולשוויון (חד״ש)",
-          "letters": null,
-          "votes": 87022,
-          "percentage": 2.63,
-          "seats": 3
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": null,
-          "votes": 86153,
-          "percentage": 2.6,
-          "seats": 4
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": 66103,
-          "percentage": 2.0,
-          "seats": 2
-        },
-        {
-          "party_name": "עם אחד",
-          "letters": null,
-          "votes": 64143,
-          "percentage": 1.94,
-          "seats": 2
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-16",
-      "election_date": "2003-01-28",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=16",
-      "general_statistics": {
-        "eligible_voters": 4720075,
-        "total_votes": 3200773,
-        "valid_votes": 3148364,
-        "invalid_votes": 52409,
-        "turnout_percentage": 67.8,
-        "passed_threshold_percentage": 1.5
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 925279,
-          "percentage": 29.39,
-          "seats": 38
-        },
-        {
-          "party_name": "העבודה–מימד",
-          "letters": null,
-          "votes": 455183,
-          "percentage": 14.46,
-          "seats": 19
-        },
-        {
-          "party_name": "שינוי",
-          "letters": null,
-          "votes": 386535,
-          "percentage": 12.28,
-          "seats": 15
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 258879,
-          "percentage": 8.22,
-          "seats": 11
-        },
-        {
-          "party_name": "האיחוד הלאומי – ישראל ביתנו – מולדת – תקומה",
-          "letters": null,
-          "votes": 173973,
-          "percentage": 5.53,
-          "seats": 7
-        },
-        {
-          "party_name": "מרצ – הבחירה הדמוקרטית – שחר",
-          "letters": null,
-          "votes": 164122,
-          "percentage": 5.21,
-          "seats": 6
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 135087,
-          "percentage": 4.29,
-          "seats": 5
-        },
-        {
-          "party_name": "המפלגה הדתית הלאומית",
-          "letters": null,
-          "votes": 132370,
-          "percentage": 4.2,
-          "seats": 6
-        },
-        {
-          "party_name": "חד״ש–תע״ל",
-          "letters": null,
-          "votes": 93819,
-          "percentage": 2.98,
-          "seats": 3
-        },
-        {
-          "party_name": "עם אחד",
-          "letters": null,
-          "votes": 86808,
-          "percentage": 2.76,
-          "seats": 3
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": 71299,
-          "percentage": 2.26,
-          "seats": 3
-        },
-        {
-          "party_name": "ישראל בעלייה",
-          "letters": null,
-          "votes": 67719,
-          "percentage": 2.15,
-          "seats": 2
-        },
-        {
-          "party_name": "הרשימה הערבית המאוחדת",
-          "letters": null,
-          "votes": 65551,
-          "percentage": 2.08,
-          "seats": 2
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-17",
-      "election_date": "2006-03-28",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=17",
-      "general_statistics": {
-        "eligible_voters": 5014622,
-        "total_votes": 3186739,
-        "valid_votes": 3137064,
-        "invalid_votes": 49675,
-        "turnout_percentage": 63.5,
-        "passed_threshold_percentage": 2.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "קדימה",
-          "letters": null,
-          "votes": 690901,
-          "percentage": 22.02,
-          "seats": 29
-        },
-        {
-          "party_name": "העבודה",
-          "letters": null,
-          "votes": 472366,
-          "percentage": 15.06,
-          "seats": 19
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 299054,
-          "percentage": 9.53,
-          "seats": 12
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 281996,
-          "percentage": 8.99,
-          "seats": 12
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": null,
-          "votes": 281880,
-          "percentage": 8.99,
-          "seats": 11
-        },
-        {
-          "party_name": "האיחוד הלאומי–מפד״ל",
-          "letters": null,
-          "votes": 224083,
-          "percentage": 7.14,
-          "seats": 9
-        },
-        {
-          "party_name": "גיל – גמלאי ישראל לכנסת",
-          "letters": null,
-          "votes": 185759,
-          "percentage": 5.92,
-          "seats": 7
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 147091,
-          "percentage": 4.69,
-          "seats": 6
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": 118302,
-          "percentage": 3.77,
-          "seats": 5
-        },
-        {
-          "party_name": "חד״ש",
-          "letters": null,
-          "votes": 86092,
-          "percentage": 2.74,
-          "seats": 3
-        },
-        {
-          "party_name": "רע״ם–תע״ל",
-          "letters": null,
-          "votes": 94786,
-          "percentage": 3.02,
-          "seats": 4
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": 72066,
-          "percentage": 2.3,
-          "seats": 3
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-18",
-      "election_date": "2009-02-10",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=18",
-      "general_statistics": {
-        "eligible_voters": 5278985,
-        "total_votes": 3416587,
-        "valid_votes": 3313490,
-        "invalid_votes": 103097,
-        "turnout_percentage": 64.7,
-        "passed_threshold_percentage": 2.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "קדימה",
-          "letters": null,
-          "votes": 758032,
-          "percentage": 22.88,
-          "seats": 28
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": null,
-          "votes": 729054,
-          "percentage": 22.0,
-          "seats": 27
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": null,
-          "votes": 394577,
-          "percentage": 11.91,
-          "seats": 15
-        },
-        {
-          "party_name": "העבודה",
-          "letters": null,
-          "votes": 334900,
-          "percentage": 10.11,
-          "seats": 13
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 286300,
-          "percentage": 8.64,
-          "seats": 11
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 147954,
-          "percentage": 4.47,
-          "seats": 5
-        },
-        {
-          "party_name": "האיחוד הלאומי",
-          "letters": null,
-          "votes": 113954,
-          "percentage": 3.44,
-          "seats": 4
-        },
-        {
-          "party_name": "חד״ש",
-          "letters": null,
-          "votes": 112570,
-          "percentage": 3.4,
-          "seats": 4
-        },
-        {
-          "party_name": "רע״ם–תע״ל",
-          "letters": null,
-          "votes": 112130,
-          "percentage": 3.38,
-          "seats": 4
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": 99611,
-          "percentage": 3.01,
-          "seats": 3
-        },
-        {
-          "party_name": "הבית היהודי",
-          "letters": null,
-          "votes": 96765,
-          "percentage": 2.92,
-          "seats": 3
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": 83739,
-          "percentage": 2.53,
-          "seats": 3
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-19",
-      "election_date": "2013-01-22",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=19",
-      "general_statistics": {
-        "eligible_voters": 5656705,
-        "total_votes": 3833646,
-        "valid_votes": 3792742,
-        "invalid_votes": 40904,
-        "turnout_percentage": 67.8,
-        "passed_threshold_percentage": 2.0
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד–ישראל ביתנו",
-          "letters": null,
-          "votes": 885163,
-          "percentage": 23.34,
-          "seats": 31
-        },
-        {
-          "party_name": "יש עתיד",
-          "letters": null,
-          "votes": 543458,
-          "percentage": 14.33,
-          "seats": 19
-        },
-        {
-          "party_name": "העבודה",
-          "letters": null,
-          "votes": 432118,
-          "percentage": 11.39,
-          "seats": 15
-        },
-        {
-          "party_name": "הבית היהודי",
-          "letters": null,
-          "votes": 345985,
-          "percentage": 9.12,
-          "seats": 12
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": null,
-          "votes": 331868,
-          "percentage": 8.75,
-          "seats": 11
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": null,
-          "votes": 195892,
-          "percentage": 5.16,
-          "seats": 7
-        },
-        {
-          "party_name": "התנועה",
-          "letters": null,
-          "votes": 189167,
-          "percentage": 4.99,
-          "seats": 6
-        },
-        {
-          "party_name": "מרצ",
-          "letters": null,
-          "votes": 172403,
-          "percentage": 4.55,
-          "seats": 6
-        },
-        {
-          "party_name": "הרשימה הערבית המאוחדת",
-          "letters": null,
-          "votes": 138450,
-          "percentage": 3.65,
-          "seats": 4
-        },
-        {
-          "party_name": "חד״ש",
-          "letters": null,
-          "votes": 113439,
-          "percentage": 2.99,
-          "seats": 4
-        },
-        {
-          "party_name": "בל״ד",
-          "letters": null,
-          "votes": 97030,
-          "percentage": 2.56,
-          "seats": 3
-        },
-        {
-          "party_name": "קדימה",
-          "letters": null,
-          "votes": 78974,
-          "percentage": 2.08,
-          "seats": 2
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-20",
-      "election_date": "2015-03-17",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=20",
-      "general_statistics": {
-        "eligible_voters": 5881696,
-        "total_votes": 4254738,
-        "valid_votes": 4210884,
-        "invalid_votes": 43854,
-        "turnout_percentage": 72.3,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 985408,
-          "percentage": 23.4,
-          "seats": 30
-        },
-        {
-          "party_name": "המחנה הציוני",
-          "letters": "אמת",
-          "votes": 786313,
-          "percentage": 18.67,
-          "seats": 24
-        },
-        {
-          "party_name": "הרשימה המשותפת",
-          "letters": "ודעם",
-          "votes": 446583,
-          "percentage": 10.61,
-          "seats": 13
-        },
-        {
-          "party_name": "יש עתיד",
-          "letters": "פה",
-          "votes": 371602,
-          "percentage": 8.82,
-          "seats": 11
-        },
-        {
-          "party_name": "כולנו",
-          "letters": "כ",
-          "votes": 315360,
-          "percentage": 7.49,
-          "seats": 10
-        },
-        {
-          "party_name": "הבית היהודי",
-          "letters": "טב",
-          "votes": 283910,
-          "percentage": 6.74,
-          "seats": 8
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 241613,
-          "percentage": 5.74,
-          "seats": 7
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 214906,
-          "percentage": 5.1,
-          "seats": 6
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 210143,
-          "percentage": 4.99,
-          "seats": 6
-        },
-        {
-          "party_name": "מרצ",
-          "letters": "מרצ",
-          "votes": 165529,
-          "percentage": 3.93,
-          "seats": 5
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-21",
-      "election_date": "2019-04-09",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=21",
-      "general_statistics": {
-        "eligible_voters": 6339729,
-        "total_votes": 4340253,
-        "valid_votes": 4309270,
-        "invalid_votes": 30983,
-        "turnout_percentage": 68.5,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 1140370,
-          "percentage": 26.46,
-          "seats": 35
-        },
-        {
-          "party_name": "כחול לבן",
-          "letters": "פה",
-          "votes": 1125881,
-          "percentage": 26.13,
-          "seats": 35
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 258275,
-          "percentage": 5.99,
-          "seats": 8
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 249049,
-          "percentage": 5.78,
-          "seats": 8
-        },
-        {
-          "party_name": "העבודה",
-          "letters": "אמת",
-          "votes": 190870,
-          "percentage": 4.43,
-          "seats": 6
-        },
-        {
-          "party_name": "חד״ש–תע״ל",
-          "letters": null,
-          "votes": 193442,
-          "percentage": 4.49,
-          "seats": 6
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 173004,
-          "percentage": 4.01,
-          "seats": 5
-        },
-        {
-          "party_name": "איחוד מפלגות הימין",
-          "letters": "טב",
-          "votes": 159468,
-          "percentage": 3.7,
-          "seats": 5
-        },
-        {
-          "party_name": "מרצ",
-          "letters": "מרצ",
-          "votes": 156473,
-          "percentage": 3.63,
-          "seats": 4
-        },
-        {
-          "party_name": "כולנו",
-          "letters": "כ",
-          "votes": 152756,
-          "percentage": 3.54,
-          "seats": 4
-        },
-        {
-          "party_name": "רע״ם–בל״ד",
-          "letters": "עם",
-          "votes": 143666,
-          "percentage": 3.33,
-          "seats": 4
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-22",
-      "election_date": "2019-09-17",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=22",
-      "general_statistics": {
-        "eligible_voters": 6394030,
-        "total_votes": 4465168,
-        "valid_votes": 4436806,
-        "invalid_votes": 28362,
-        "turnout_percentage": 69.8,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "כחול לבן",
-          "letters": "פה",
-          "votes": 1151214,
-          "percentage": 25.95,
-          "seats": 33
-        },
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 1113617,
-          "percentage": 25.1,
-          "seats": 32
-        },
-        {
-          "party_name": "הרשימה המשותפת",
-          "letters": "ודעם",
-          "votes": 470211,
-          "percentage": 10.6,
-          "seats": 13
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 330199,
-          "percentage": 7.44,
-          "seats": 9
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 310154,
-          "percentage": 6.99,
-          "seats": 8
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 268775,
-          "percentage": 6.06,
-          "seats": 7
-        },
-        {
-          "party_name": "ימינה",
-          "letters": "טב",
-          "votes": 260655,
-          "percentage": 5.87,
-          "seats": 7
-        },
-        {
-          "party_name": "העבודה–גשר",
-          "letters": "אמת",
-          "votes": 212782,
-          "percentage": 4.8,
-          "seats": 6
-        },
-        {
-          "party_name": "המחנה הדמוקרטי",
-          "letters": "מרצ",
-          "votes": 192495,
-          "percentage": 4.34,
-          "seats": 5
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-23",
-      "election_date": "2020-03-02",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=23",
-      "general_statistics": {
-        "eligible_voters": 6453255,
-        "total_votes": 4615135,
-        "valid_votes": 4590062,
-        "invalid_votes": 25073,
-        "turnout_percentage": 71.5,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 1352449,
-          "percentage": 29.46,
-          "seats": 36
-        },
-        {
-          "party_name": "כחול לבן",
-          "letters": "פה",
-          "votes": 1220381,
-          "percentage": 26.59,
-          "seats": 33
-        },
-        {
-          "party_name": "הרשימה המשותפת",
-          "letters": "ודעם",
-          "votes": 581507,
-          "percentage": 12.67,
-          "seats": 15
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 352853,
-          "percentage": 7.69,
-          "seats": 9
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 274437,
-          "percentage": 5.98,
-          "seats": 7
-        },
-        {
-          "party_name": "העבודה–גשר–מרצ",
-          "letters": "אמת",
-          "votes": 267480,
-          "percentage": 5.83,
-          "seats": 7
-        },
-        {
-          "party_name": "ימינה",
-          "letters": "טב",
-          "votes": 240689,
-          "percentage": 5.24,
-          "seats": 6
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 263365,
-          "percentage": 5.74,
-          "seats": 7
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-24",
-      "election_date": "2021-03-23",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=24",
-      "general_statistics": {
-        "eligible_voters": 6578084,
-        "total_votes": 4436365,
-        "valid_votes": 4410052,
-        "invalid_votes": 26313,
-        "turnout_percentage": 67.4,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 1066892,
-          "percentage": 24.19,
-          "seats": 30
-        },
-        {
-          "party_name": "יש עתיד",
-          "letters": "פה",
-          "votes": 614112,
-          "percentage": 13.93,
-          "seats": 17
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 316008,
-          "percentage": 7.17,
-          "seats": 9
-        },
-        {
-          "party_name": "כחול לבן",
-          "letters": "כן",
-          "votes": 292257,
-          "percentage": 6.63,
-          "seats": 8
-        },
-        {
-          "party_name": "ימינה",
-          "letters": "טב",
-          "votes": 273836,
-          "percentage": 6.21,
-          "seats": 7
-        },
-        {
-          "party_name": "העבודה",
-          "letters": "אמת",
-          "votes": 268767,
-          "percentage": 6.09,
-          "seats": 7
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 248391,
-          "percentage": 5.63,
-          "seats": 7
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 248370,
-          "percentage": 5.63,
-          "seats": 7
-        },
-        {
-          "party_name": "הציונות הדתית",
-          "letters": "ט",
-          "votes": 225641,
-          "percentage": 5.12,
-          "seats": 6
-        },
-        {
-          "party_name": "הרשימה המשותפת",
-          "letters": null,
-          "votes": 212583,
-          "percentage": 4.82,
-          "seats": 6
-        },
-        {
-          "party_name": "תקווה חדשה",
-          "letters": "ת",
-          "votes": 209161,
-          "percentage": 4.74,
-          "seats": 6
-        },
-        {
-          "party_name": "מרצ",
-          "letters": "מרצ",
-          "votes": 202218,
-          "percentage": 4.59,
-          "seats": 6
-        },
-        {
-          "party_name": "רע״ם",
-          "letters": "עם",
-          "votes": 167064,
-          "percentage": 3.79,
-          "seats": 4
-        }
-      ]
-    },
-    {
-      "election": "בחירות לכנסת ה-25",
-      "election_date": "2022-11-01",
-      "result_status": "final",
-      "source_url": "https://main.knesset.gov.il/About/History/pages/knessethistory.aspx?kns=25",
-      "general_statistics": {
-        "eligible_voters": 6788804,
-        "total_votes": 4794593,
-        "valid_votes": 4764742,
-        "invalid_votes": 29851,
-        "turnout_percentage": 70.6,
-        "passed_threshold_percentage": 3.25
-      },
-      "parties_passed_threshold": [
-        {
-          "party_name": "הליכוד",
-          "letters": "מחל",
-          "votes": 1115336,
-          "percentage": 23.41,
-          "seats": 32
-        },
-        {
-          "party_name": "יש עתיד",
-          "letters": "פה",
-          "votes": 847435,
-          "percentage": 17.79,
-          "seats": 24
-        },
-        {
-          "party_name": "הציונות הדתית",
-          "letters": "ט",
-          "votes": 516470,
-          "percentage": 10.84,
-          "seats": 14
-        },
-        {
-          "party_name": "המחנה הממלכתי",
-          "letters": "כן",
-          "votes": 432482,
-          "percentage": 9.08,
-          "seats": 12
-        },
-        {
-          "party_name": "ש״ס",
-          "letters": "שס",
-          "votes": 392964,
-          "percentage": 8.25,
-          "seats": 11
-        },
-        {
-          "party_name": "יהדות התורה",
-          "letters": "ג",
-          "votes": 280194,
-          "percentage": 5.88,
-          "seats": 7
-        },
-        {
-          "party_name": "ישראל ביתנו",
-          "letters": "ל",
-          "votes": 213687,
-          "percentage": 4.48,
-          "seats": 6
-        },
-        {
-          "party_name": "רע״ם",
-          "letters": "עם",
-          "votes": 194047,
-          "percentage": 4.07,
-          "seats": 5
-        },
-        {
-          "party_name": "חד״ש–תע״ל",
-          "letters": null,
-          "votes": 178735,
-          "percentage": 3.75,
-          "seats": 5
-        },
-        {
-          "party_name": "העבודה",
-          "letters": "אמת",
-          "votes": 175992,
-          "percentage": 3.69,
-          "seats": 4
-        }
-      ]
-    },
-    {
-		"election": "בחירות לכנסת ה-26",
-      "election_date": "2026-10-29",
-      "result_status": "not-final",
-      "source_url": "https://votes26.bechirot.gov.il/nationalresults",
-	  "general_statistics": {
-		 "eligible_voters": 7331981,
-		 "total_votes": 5344198,
-		 "valid_votes": 5320404,
-		 "invalid_votes": 23794,
-		 "turnout_percentage": 72.89,
-		 "passed_threshold_percentage": 3.25
-	  },
-	  "notes": {
-		 "data_as_of": "2026-10-29 10:02",
-		 "source": "ועדת הבחירות המרכזית - votes26.bechirot.gov.il/nationalresults",
-		 "polling_stations_counted": 12161,
-		 "double_envelopes": "לא מופיעות בדף התוצאות הרשמי; הנתונים אינם כוללים אותן",
-		 "seats_note": "הדף הרשמי אינו מציג מנדטים. המנדטים חושבו בשיטת בדר-עופר מהקולות שלעיל, ללא הסכמי עודפים, ולכן הם הערכה ועשויים להיות שונים מהחלוקה הרשמית.",
-		 "threshold_votes_minimum": 172914,
-		 "share_of_valid_votes_of_parties_passing_threshold": 94.74
-	  },
-	  "parties_passed_threshold": [
-		 {
-			"party_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
-			"letters": "מחל",
-			"votes": 1097210,
-			"percentage": 20.62,
-			"seats": 27
-		 },
-		 {
-			"party_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
-			"letters": "דרך",
-			"votes": 858953,
-			"percentage": 16.14,
-			"seats": 21
-		 },
-		 {
-			"party_name": "ביחד בראשות נפתלי בנט",
-			"letters": "רק",
-			"votes": 485082,
-			"percentage": 9.12,
-			"seats": 12
-		 },
-		 {
-			"party_name": "הרשימה המשותפת",
-			"letters": "ודם",
-			"votes": 483329,
-			"percentage": 9.08,
-			"seats": 11
-		 },
-		 {
-			"party_name": "הדמוקרטים בראשות יאיר גולן",
-			"letters": "אמת",
-			"votes": 344604,
-			"percentage": 6.48,
-			"seats": 8
-		 },
-		 {
-			"party_name": "רע\"ם - הרשימה הערבית המאוחדת",
-			"letters": "עם",
-			"votes": 322230,
-			"percentage": 6.06,
-			"seats": 8
-		 },
-		 {
-			"party_name": "ישראל ביתנו בראשות אביגדור ליברמן",
-			"letters": "ל",
-			"votes": 315661,
-			"percentage": 5.93,
-			"seats": 7
-		 },
-		 {
-			"party_name": "עוצמה יהודית בראשות איתמר בן גביר",
-			"letters": "ב",
-			"votes": 297789,
-			"percentage": 5.6,
-			"seats": 7
-		 },
-		 {
-			"party_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
-			"letters": "ג",
-			"votes": 297552,
-			"percentage": 5.59,
-			"seats": 7
-		 },
-		 {
-			"party_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
-			"letters": "שס",
-			"votes": 281218,
-			"percentage": 5.29,
-			"seats": 6
-		 },
-		 {
-			"party_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
-			"letters": "ט",
-			"votes": 256708,
-			"percentage": 4.82,
-			"seats": 6
-		 }
-	  ]
-	}
 }
