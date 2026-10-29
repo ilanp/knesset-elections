@@ -1,0 +1,99 @@
+{
+  "election": "בחירות לכנסת ה-26",
+  "general_statistics": {
+    "eligible_voters": 7331981,
+    "total_votes": 5344198,
+    "valid_votes": 5320404,
+    "invalid_votes": 23794,
+    "turnout_percentage": 72.89,
+    "passed_threshold_percentage": 3.25
+  },
+  "notes": {
+    "data_as_of": "2026-10-29 10:02",
+    "source": "ועדת הבחירות המרכזית - votes26.bechirot.gov.il/nationalresults",
+    "polling_stations_counted": 12161,
+    "double_envelopes": "לא מופיעות בדף התוצאות הרשמי; הנתונים אינם כוללים אותן",
+    "seats_note": "הדף הרשמי אינו מציג מנדטים. המנדטים חושבו בשיטת בדר-עופר מהקולות שלעיל, ללא הסכמי עודפים, ולכן הם הערכה ועשויים להיות שונים מהחלוקה הרשמית.",
+    "threshold_votes_minimum": 172914,
+    "share_of_valid_votes_of_parties_passing_threshold": 94.74
+  },
+  "parties_passed_threshold": [
+    {
+      "party_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+      "letters": "מחל",
+      "votes": 1097210,
+      "percentage": 20.62,
+      "seats": 27
+    },
+    {
+      "party_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+      "letters": "דרך",
+      "votes": 858953,
+      "percentage": 16.14,
+      "seats": 21
+    },
+    {
+      "party_name": "ביחד בראשות נפתלי בנט",
+      "letters": "רק",
+      "votes": 485082,
+      "percentage": 9.12,
+      "seats": 12
+    },
+    {
+      "party_name": "הרשימה המשותפת",
+      "letters": "ודם",
+      "votes": 483329,
+      "percentage": 9.08,
+      "seats": 11
+    },
+    {
+      "party_name": "הדמוקרטים בראשות יאיר גולן",
+      "letters": "אמת",
+      "votes": 344604,
+      "percentage": 6.48,
+      "seats": 8
+    },
+    {
+      "party_name": "רע\"ם - הרשימה הערבית המאוחדת",
+      "letters": "עם",
+      "votes": 322230,
+      "percentage": 6.06,
+      "seats": 8
+    },
+    {
+      "party_name": "ישראל ביתנו בראשות אביגדור ליברמן",
+      "letters": "ל",
+      "votes": 315661,
+      "percentage": 5.93,
+      "seats": 7
+    },
+    {
+      "party_name": "עוצמה יהודית בראשות איתמר בן גביר",
+      "letters": "ב",
+      "votes": 297789,
+      "percentage": 5.6,
+      "seats": 7
+    },
+    {
+      "party_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+      "letters": "ג",
+      "votes": 297552,
+      "percentage": 5.59,
+      "seats": 7
+    },
+    {
+      "party_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+      "letters": "שס",
+      "votes": 281218,
+      "percentage": 5.29,
+      "seats": 6
+    },
+    {
+      "party_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+      "letters": "ט",
+      "votes": 256708,
+      "percentage": 4.82,
+      "seats": 6
+    }
+  ]
+}
