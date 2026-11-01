@@ -33,7 +33,7 @@
         "valid_votes": 434684,
         "invalid_votes": 5411,
         "turnout_percentage": 86.9,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -133,7 +133,7 @@
         "valid_votes": 687492,
         "invalid_votes": 7515,
         "turnout_percentage": 75.1,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -240,7 +240,7 @@
         "valid_votes": 853219,
         "invalid_votes": 22866,
         "turnout_percentage": 82.8,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -340,7 +340,7 @@
         "valid_votes": 969337,
         "invalid_votes": 24969,
         "turnout_percentage": 81.6,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -440,7 +440,7 @@
         "valid_votes": 1006964,
         "invalid_votes": 30066,
         "turnout_percentage": 81.6,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -532,8 +532,8 @@
         "total_votes": 1244706,
         "valid_votes": 1206728,
         "invalid_votes": 37978,
-        "turnout_percentage": 83.0,
-        "passed_threshold_percentage": 1.0
+        "turnout_percentage": 83,
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -640,7 +640,7 @@
         "valid_votes": 1367743,
         "invalid_votes": 60238,
         "turnout_percentage": 81.7,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -740,7 +740,7 @@
         "valid_votes": 1566855,
         "invalid_votes": 34243,
         "turnout_percentage": 78.6,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -826,7 +826,7 @@
         "valid_votes": 1747820,
         "invalid_votes": 23906,
         "turnout_percentage": 79.2,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -926,7 +926,7 @@
         "valid_votes": 1937366,
         "invalid_votes": 17243,
         "turnout_percentage": 78.5,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -1012,7 +1012,7 @@
         "valid_votes": 2073321,
         "invalid_votes": 18081,
         "turnout_percentage": 79.8,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -1126,7 +1126,7 @@
         "valid_votes": 2283123,
         "invalid_votes": 22444,
         "turnout_percentage": 79.7,
-        "passed_threshold_percentage": 1.0
+        "passed_threshold_percentage": 1
       },
       "parties_passed_threshold": [
         {
@@ -1482,7 +1482,7 @@
           "party_name": "מפלגת המרכז",
           "letters": null,
           "votes": 165622,
-          "percentage": 5.0,
+          "percentage": 5,
           "seats": 6
         },
         {
@@ -1531,7 +1531,7 @@
           "party_name": "בל״ד",
           "letters": null,
           "votes": 66103,
-          "percentage": 2.0,
+          "percentage": 2,
           "seats": 2
         },
         {
@@ -1661,7 +1661,7 @@
         "valid_votes": 3137064,
         "invalid_votes": 49675,
         "turnout_percentage": 63.5,
-        "passed_threshold_percentage": 2.0
+        "passed_threshold_percentage": 2
       },
       "parties_passed_threshold": [
         {
@@ -1761,7 +1761,7 @@
         "valid_votes": 3313490,
         "invalid_votes": 103097,
         "turnout_percentage": 64.7,
-        "passed_threshold_percentage": 2.0
+        "passed_threshold_percentage": 2
       },
       "parties_passed_threshold": [
         {
@@ -1775,7 +1775,7 @@
           "party_name": "הליכוד",
           "letters": null,
           "votes": 729054,
-          "percentage": 22.0,
+          "percentage": 22,
           "seats": 27
         },
         {
@@ -1861,7 +1861,7 @@
         "valid_votes": 3792742,
         "invalid_votes": 40904,
         "turnout_percentage": 67.8,
-        "passed_threshold_percentage": 2.0
+        "passed_threshold_percentage": 2
       },
       "parties_passed_threshold": [
         {
@@ -2473,100 +2473,98 @@
         }
       ]
     },
-	 {
-		"election": "בחירות לכנסת ה-26",
-		"election_date": "2026-10-29",
-		"result_status": "final",
-		"source_url": "https://votes26.bechirot.gov.il/nationalresults",
-		"general_statistics": 
-		{
-			 "eligible_voters": 7331981,
-			 "total_votes": 5716673,
-			 "valid_votes": 5690685,
-			 "invalid_votes": 25988,
-			 "turnout_percentage": 77.97,
-			 "passed_threshold_percentage": 3.25
-	  },  
-	 "parties_passed_threshold": 
-	 [
-		 {
-			"party_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
-			"letters": "מחל",
-			"votes": 1167458,
-			"percentage": 20.52,
-			"seats": 27
-		 },
-		 {
-			"party_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
-			"letters": "דרך",
-			"votes": 913502,
-			"percentage": 16.05,
-			"seats": 21
-		 },
-		 {
-			"party_name": "ביחד בראשות נפתלי בנט",
-			"letters": "רק",
-			"votes": 531476,
-			"percentage": 9.34,
-			"seats": 12
-		 },
-		 {
-			"party_name": "הרשימה המשותפת",
-			"letters": "ודם",
-			"votes": 500147,
-			"percentage": 8.79,
-			"seats": 11
-		 },
-		 {
-			"party_name": "הדמוקרטים בראשות יאיר גולן",
-			"letters": "אמת",
-			"votes": 366352,
-			"percentage": 6.44,
-			"seats": 8
-		 },
-		 {
-			"party_name": "ישראל ביתנו בראשות אביגדור ליברמן",
-			"letters": "ל",
-			"votes": 337413,
-			"percentage": 5.93,
-			"seats": 7
-		 },
-		 {
-			"party_name": "רע\"ם - הרשימה הערבית המאוחדת",
-			"letters": "עם",
-			"votes": 337253,
-			"percentage": 5.93,
-			"seats": 8
-		 },
-		 {
-			"party_name": "עוצמה יהודית בראשות איתמר בן גביר",
-			"letters": "ב",
-			"votes": 326624,
-			"percentage": 5.74,
-			"seats": 7
-		 },
-		 {
-			"party_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
-			"letters": "ג",
-			"votes": 312604,
-			"percentage": 5.49,
-			"seats": 7
-		 },
-		 {
-			"party_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
-			"letters": "שס",
-			"votes": 299506,
-			"percentage": 5.26,
-			"seats": 6
-		 },
-		 {
-			"party_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
-			"letters": "ט",
-			"votes": 290451,
-			"percentage": 5.1,
-			"seats": 6
-		 }
-	 ]
-  }
-]
+    {
+      "election": "בחירות לכנסת ה-26",
+      "election_date": "2026-10-29",
+      "result_status": "final",
+      "source_url": "https://votes26.bechirot.gov.il/nationalresults",
+      "general_statistics": {
+        "eligible_voters": 7331981,
+        "total_votes": 5716673,
+        "valid_votes": 5690685,
+        "invalid_votes": 25988,
+        "turnout_percentage": 77.97,
+        "passed_threshold_percentage": 3.25
+      },
+      "parties_passed_threshold": [
+        {
+          "party_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+          "letters": "מחל",
+          "votes": 1167458,
+          "percentage": 20.52,
+          "seats": 27
+        },
+        {
+          "party_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+          "letters": "דרך",
+          "votes": 913502,
+          "percentage": 16.05,
+          "seats": 21
+        },
+        {
+          "party_name": "ביחד בראשות נפתלי בנט",
+          "letters": "רק",
+          "votes": 531476,
+          "percentage": 9.34,
+          "seats": 12
+        },
+        {
+          "party_name": "הרשימה המשותפת",
+          "letters": "ודם",
+          "votes": 500147,
+          "percentage": 8.79,
+          "seats": 11
+        },
+        {
+          "party_name": "הדמוקרטים בראשות יאיר גולן",
+          "letters": "אמת",
+          "votes": 366352,
+          "percentage": 6.44,
+          "seats": 8
+        },
+        {
+          "party_name": "ישראל ביתנו בראשות אביגדור ליברמן",
+          "letters": "ל",
+          "votes": 337413,
+          "percentage": 5.93,
+          "seats": 7
+        },
+        {
+          "party_name": "רע\"ם - הרשימה הערבית המאוחדת",
+          "letters": "עם",
+          "votes": 337253,
+          "percentage": 5.93,
+          "seats": 8
+        },
+        {
+          "party_name": "עוצמה יהודית בראשות איתמר בן גביר",
+          "letters": "ב",
+          "votes": 326624,
+          "percentage": 5.74,
+          "seats": 7
+        },
+        {
+          "party_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+          "letters": "ג",
+          "votes": 312604,
+          "percentage": 5.49,
+          "seats": 7
+        },
+        {
+          "party_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+          "letters": "שס",
+          "votes": 299506,
+          "percentage": 5.26,
+          "seats": 6
+        },
+        {
+          "party_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+          "letters": "ט",
+          "votes": 290451,
+          "percentage": 5.1,
+          "seats": 6
+        }
+      ]
+    }
+  ]
 }
