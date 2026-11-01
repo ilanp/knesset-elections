@@ -2486,17 +2486,7 @@
 			 "invalid_votes": 25988,
 			 "turnout_percentage": 77.97,
 			 "passed_threshold_percentage": 3.25
-	  },
-	  "notes": 
-	  {
-			"data_as_of": "2026-10-30 13:56",
-			"status": "תוצאות סיום הספירה של ועדת הבחירות המרכזית, כולל המעטפות הכפולות. הפרסום הרשמי ברשומות צפוי עד 4.11.2026.",
-			"polling_stations_counted": 12926,
-			"seats_note": "הדף הרשמי אינו מציג מנדטים. המנדטים חושבו בשיטת בדר-עופר מהקולות שלעיל, ללא הסכמי עודפים, ולכן הם הערכה ועשויים להיות שונים מהחלוקה הרשמית.",
-			"threshold_votes_minimum": 184948,
-			"share_of_valid_votes_of_parties_passing_threshold": 94.59,
-	  },
-	  
+	  },  
 	 "parties_passed_threshold": 
 	 [
 		 {
@@ -2578,4 +2568,4 @@
 		 }
 	 ]
   }
-}
+]
